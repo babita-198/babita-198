@@ -1,0 +1,455 @@
+/*
+ Localizable.strings
+ CLApp
+ 
+ Created by cl-macmini-68 on 07/12/16.
+ Copyright © 2016 Hardeep Singh. All rights reserved.
+ */
+
+//-----Tutorial
+"Tutorial1" = "Herbs are fun and easy to grow. When harvested they make even the simplest meal seem like a gourmet delight.";
+"Tutorial2" = "Herbs are fun and easy to grow. When harvested they make even the simplest meal seem like a gourmet delight.";
+"Tutorial3" = "Herbs are fun and easy to grow. When harvested they make even the simplest meal seem like a gourmet delight.";
+"Tutorial4" = "Herbs are fun and easy to grow. When harvested they make even the simplest meal seem like a gourmet delight.";
+"GET STARTED" = "البدء";
+"Order Placed" = "تم ادراج طلبك";
+"Sign up" = "انشاء حساب";
+"Please write feedback" = "يرجى كتابة التعليقات";
+"Location" = "موقعك";
+"CurrentLanguage" = "******* ENGLISH  *********";
+"Login" = "Login";
+"Check Validations" = "Check Validations";
+"Unknown" = "Unknown";
+"Forgot_Password" = "هل نسيت كلمة المرور";
+"AlertNoCamera" = "Device has no camera";
+"Pick UP" = "استلام من المطعم";
+"Choose A Delivery Type" = "اختر نوع التسليم";
+"Search restaurants" = "البحث عن المطاعم";
+"No Restaurant Found" = "لم يتم العثور على مطعم";
+"SELECT" = "اختر";
+"Rs." = "ليرة لبنانية";
+"No Addresses found" = "لم يتم العثور على عناوين";
+"ADD NEW ADDRESS" = "إضافة عنوان جديد";
+//-----SideMenu
+"sideHome" = "الصفحة الرئيسية‎";
+"Loading..." = "جار التحميل...";
+"Help" = "مساعدة";
+"Logout" = "الخروج";
+"Cancel" = "إلغاء";
+"MyProfile" = "ملفي";
+"MyAddress" = "عنواني";
+"MyOrders" = "طلباتي";
+"Referafriend" = "أوص أحد الأصدقاء";
+"Promotions" = "الترقيات";
+"ChatSupport" = "دعم الدردشة";
+"Info" = "عن فود ستار";
+"Km" = "كم";
+
+//----SignIN
+"Don’t have an account?" = "لايوجد لديك حساب";
+"CREATE ACCOUNT" = "انشاء حساب";
+"Forgot Password?" = "هل نسيت كلمة المرور ؟";
+"Sign in " = "تسجيل الدخول ";
+"Email ID/ Phone Number" = "البريد الالكتروني / رقم الهاتف";
+
+//-----OTP Verification
+"ErrorPhoneCode"       = "ادخل رمز التفعيل";
+"ErrorCorrectCode"     = "يرجى ادخال رمز التحقق والمكون من 4 ارقام";
+
+//---- Home
+"Sponsored" = "العروض";
+"Discover" = "تغطية";
+"Restaurants near you" = "مطاعم بالقرب منك";
+"Explore new restaurants" = "استكشاف المطاعم الجديدة";
+"Trending" = "الشائع";
+//---- Signup form
+"Please enter valid phone number" = "ادخل رقم جوالك صحيح";
+"Email" = "Email";
+"First name" = "الاسم الأول";
+"Last name" = "الاسم الأخير";
+"Username" = "Username";
+"passwordPlaceholder" = "Password (6 Digit Password)";
+"confirmPasswordPlaceholder" = "Confirm Password (6 Digit Password)";
+"Confirm Email" = "Confirm Email";
+"ConfirmPassword" = "Confirm password";
+"ErrorFirstName"       = "Please enter first name";
+"ErrorLastName"        = "Please enter last name";
+"ErrorUserName"        = "Please enter user name";
+"ErrorCode"            = "Please enter country code";
+"ErrorPhoneNumber"     = "ادخل رقم جوالك";
+"ErrorConfirmPassword" = "يرجى تاكيد ادخال رمز الدخول";
+"ErrorOldPassword"     = "كلمة المرور القديم ";
+"ErrorValidPassword"   = "Please enter valid password";
+"ErrorValidNewPassword"= "Password should be of atleast 6 characters";
+"ErrorPassword"        = "كلمة المرور الجديد المكون من 6 ارقام";
+"ErrorPasswordLength"  = "Password should be of atleast 8 characters";
+"ErrorKitchName"       = "يرجى ادخل الاسم";
+"ErrorNewPassword"     = "كلمة المرور الجديد المكون من 6 ارقام";
+"ErrorRestaurantName"  = "Please enter restaurant name";
+"ErrorExperience"      = "Please enter experience";
+"ErrorAddress"         = "Please enter address";
+"ErrorNickName"        = "Please enter nick name";
+"TOSTitle"             = "تسجيلك يعني أنك توافق على بنود الخدمة وأنك قد قرأت سياسة الخصوصية";
+
+"Password" = "الرقم السري";
+"Phone Number" = "البريد الالكتروني / رقم الهاتف";
+"Phone Number" = " رقم الهاتف";
+"All Fields ARE Filled" = "All Fields ARE Filled = %@";
+"All Fields Are Validate" = "All Fields Are Validate = %@";
+
+//----
+"A special character is mandatory" = "A special character is mandatory";
+"A special symbol is mandatory" = "A special symbol is mandatory";
+
+//---- Messages
+"Change Your Authorization Status" = "Change Your Authorization Status";
+"Location_Authorization_Denied_Message" = "Current Authorization status is Denied, Change the authorization status in Settings. To enable, please go to Settings->Privacy->Location Services";
+
+//---- Payment
+"Settings" = "الضبط";
+"Payment" = "الدفع";
+"Wallet" = "المحفظه";
+"Notifications" = "التنبيهات";
+"Select Language" = "اختراللغه";
+"Confirm password does not match with new password" = "تأكيد كلمة المرور لا يتطابق مع كلمة المرور الجديدة";
+//------Address Flow
+"Pincode" = "الرقم السري";
+"Save delivery location" = "حفظ مكان التوصيل";
+"Save as" = "حفظ ك";
+"Address added successfully" = "تم حفظ العنوان بنجاح";
+"Address updated successfully" = "تم تحديث العنوان بنجاح";
+"Profile updated successfully" = "تم تحديث الملف الشخصي بنجاح";
+"UPDATE & PROCEED" = "تحديث و معالجة الطلب";
+"SAVE & PROCEED" = "معالجة و حفظ الطلب";
+"Create an Account?" = "انشئ حساب؟";
+"Forgot my Password?" = "هل نسيت كلمة المرور؟";
+"LOGIN" = "تسجيل الدخول";
+"Login" = "تسجيل الدخول";
+
+//------Cart View Controller
+"Please add item to cart" = "الرجاء اضافة الطلبات بالسلة";
+"Ok" = "موافق";
+"OPTIONS" = "خيارات";
+"Cancel" = "الغاء";
+
+//------Tutorials
+"Tutorial1" = "شرح 1";
+"Tutorial2" = "شرح 2";
+"Tutorial3" = "شرح 3";
+"Tutorial4" = "شرح 4";
+"Tutorial5" = "شرح 5";
+
+//----Home ViewController
+"Sponsored" = "العروض";
+"Discover" = "تغطية";
+"RESTAURANTS NEAR YOU" = "مطاعم بالقرب منك";
+"Unable to Find Address for Location" = "غير قادر على ايجاد العنوان";
+"No Matching Addresses Found" = "لا يوجد تطابق في العنوان";
+"You had added items of different restaurant in cart. Are you sure you want to clear Cart ?" = "لقد اضفت منتجات لمطعم اخر هل تريد افراغ السلة";
+"Complete Payment" = "اتمام الدفع";
+"Getting address..." = "جار الحصول على العنوان ...";
+//-----ORDER
+"Cancel Order" = "الغي الطلب";
+"Are you sure you want to" = "هل انت متأكد من الغاء الطلب";
+"cancel your order " = "ألغي طلبك";
+"YES" = "نعم";
+"NO" = "لا";
+"Cancellation Reason" = "سبب الالغاء";
+"Unable to contact to restraunt" = "غير قادر على التواصل مع المطعم";
+"Not available for taking order" = "غير متوفر لأخذ الطلب";
+"My reason is not listed" = "سبب الالغاء ليس من ضمن القائمة";
+"Dummy content" = "رقم وهمي";
+"DON'T CANCEL" = "الرجاء..عدم الالغاء";
+"CANCEL ORDER" = "الغي الطلب";
+"SWIPE TO CONFIRM >>" = "اسحب للتأكيد";
+"Complete Payment" = "اتمام الدفع";
+"Price" = "السعر";
+"Qty" = "الكمية";
+"Total Price" = "السعر النهائي";
+"No Discount Applied" = "لا يوجد خصم";
+"Delivery Charges" = "قيمة التوصيل";
+"VAT" = "الضريبة";
+"You don't have any saved address yet.\n Please add address to create booking" = "لا يوجد اي عنوان محفوظ ، الرجاء اضافة عنوان ليتم الحجز";
+"Something went wrong, Please try again" = "يوجد خطأ ، الرجاء المحاولة مرة اخرى";
+"Please Select Address" = "الرجاء اختيار العنوان";
+"Take Away" = "طلبات خارجية";
+"Home Delivery" = "توصيل";
+"Not able to make phone call " = "يتعذراجرء مكالمة هاتفية";
+"You don't have any past booking yet.\nYou can create booking." = "لا يوجد لديك اي حجز مسبق ، يمكنك انشاء حجز ";
+"You don't have any upcoming booking yet.\nYou can create booking." = "لا يوجد لديك اي حجوزات قادمة ، يمكنك انشاء حجز";
+"Congratulations" =  "";//"مبروك";
+"Your order is placed successfully" = "لقد تم ارسال طلبك بنجاح";
+"Your order number is" = "رقم طلبك هو";
+"Rate" = "التقييم";
+"Item" = "المنتجات";
+"Address" = "العنوان";
+"Amount" = "الكمية";
+"Hide" = "اخفاء";
+"Show" = "اظهار";
+"VIEW ONLINE MENU" = "عرض قائمة الطعام";
+"confirmPasswordPlaceholder" = "تأكيد الرقم السري . ";
+"passwordPlaceholder" = "الرقم السري ";
+"AlertNoCamera" = "تنبيه لا يوجد كاميرا";
+"App Wallet" = "محفظة فودستار";
+"Credit Card" = "بطاقة ائتمان";
+"Cash on Delivery" = "الدفع عند الاستلام";
+"Mada" = "مدى";
+"payment options" = "خيارات الدفع";
+"Price Details" = "تفاصيل المبلغ";
+"PRICE DETAILS" = "تفاصيل المبلغ";
+"Landmark (Optional)" = "معلم معروف(اختياري)";
+"No review found" = "لم يتم العثور على تقييم";
+"Home" = "المنزل";
+"Work" = "العمل";
+"Other" = "اخرى";
+"Delivery Cost" = "قيمة التوصيل";
+"Min order" = "الحد الادنى";
+"Closed" = "اغلاق";
+"Write Feedback…" = "كتابة تعليقات ...";
+"Delivers in" = "التوصيل في";
+
+"No customization added." = "لا يوجد شيء مخصص";
+"Please rate for booking service" = "يرجى تقييم خدمة الحجز";
+"Order Delivered" = "تم التسليم";
+//New String
+"Cash" = "نقداً";
+"Wallet" = "المحفظة";
+"Card" = "بطاقة";
+"Mada" = "مدى";
+"GET DIRECTIONS" = "التوجه اليه";
+"Delivery Time" = "وقت التوصيل";
+"VIEW CART" = "اعرض السلة";
+"My Cart" = "سلتي";
+"Delivers in" = "التوصيل في";
+"prepares in" = "التوصيل في";
+"min" = "دقيقة";
+"Mins" = "دقيقة";
+"PROCEED" = "استمرار";
+"items" = "منتجات";
+"Delivery Mode" = "نوع الخدمة";
+"Payment Mode" = "طريقة الدفع";
+"Total Amount" = "اجمالي المبلغ";
+"VAT" = "الضريبة";
+"Coupon Discount" = "خصم الكوبون";
+"Discount" = "خصم";
+"Delivery Mode" = "نوع الخدمة";
+"APPLY" = "تطبيق";
+"Allergic to something? Mention it here…" = "هل يوجد لديك حساسية  من نوع معين من المأكولات؟ اذكرها";
+"PAYMENT OPTIONS" = "خيارات الدفع";
+"PRICE DETAILS" = "تفاصيل السعر";
+"Price" = "السعر";
+"Qty" = "الكمية";
+"PAY" = "دفع";
+"Your order number is" = "رقم الطلب";
+"TRACK ORDER" = "متابعة الطلب";
+"ITEM IN CART" = "منتج في السلة";
+"ADD MORE ITEMS" = "اضافة منتج";
+"ADD MORE ADDRESS" = "اضافة عنوان";
+"Continue" = "الاستمرار";
+"Reviews" = "التقييمات";
+"Select Outlet" = "اختر الفرع";
+"Customize" = "تفصيل";
+"Do you really want to logout?" = "هل أنت متأكد من الخروج؟";
+"AlertNoCamera" = "تنبية لايوجد كاميرا";
+"Refer your friends to FoodFox. For each friend that joins, you will both receive a $10 credit." = "شارك تطبيق فود ستار، ولكل صديق ستحصل على 10 دولار كرصيد";
+"Delivered on" = "التوصيل في";
+"By" = "ب";
+//"Delivered" = "تم التوصيل";
+
+"Delivered" = "تم استلام الطلب";
+"Delivered & Rated" = "تم التوصيل و التقييم";
+"DRIVER REJECTED" = "الطلب مرفوض";
+"CANCELLED" = "ملغي";
+"Tap to copy" = "اكتب للنسخ";
+"Copied" = "منسوخ";
+"SHARE NOW" = "المشاركه الان";
+"Refer A Friend" = "ادعو احد اصدقائك";
+"Info" = "عن فود ستار";
+"EDIT PROFILE" = "تعديل الصفحة";
+"LOGOUT" = "الخروج";
+"CHANGE PASSWORD" = "تغيير الرقم السري";
+"SAVE" = "حفظ";
+"Click here and select Address" = "اضغط هنا واختر العنوان";
+"FirstName" = "الاسم الاول";
+"LastName" = "الاسم الاخير";
+"Email" = "الايميل";
+"My Profile" = "الملف الشخصي";
+"Search restaurants" = "البحث عن مطعم";
+"Address" = "العنوان";
+"Enter Promocode" = "ادخل رمز الخصم";
+" APPLY " = " تطبيق ";
+"My Orders" = "طلباتي";
+"My Address" = "عناويني";
+"Delivery Location" = "مواقع التوصيل";
+"SUBMIT" = "تقديم";
+"Enter Card Information" = "ادخل معلومات البطاقه";
+"Add New Card" = "اضافة بطاقة جديدة";
+"Card Holder Name" = "اسم حامل البطاقة";
+"CVV/CVC" = "رمز الامان";
+"Exp. Date" = "تاريخ الانتهاء";
+"Set as default" = "اختيار كاساسي";
+"Wallet" = "المحفظه";
+"FoodFox Cash" = "فود ستار كاش";
+"Add Credits to Wallet" = "اضافة رصيد للمحفظه";
+"Enter amount" = "ادخل المبلغ";
+
+"Already have an account?" = "يوجد لديك حساب مسبقاً";
+"or" = "او";
+"Or" = "او";
+"SIGN IN" = "الدخول";
+"Sign in" = "الدخول";
+"Sign up" = "التسجيل";
+"Twitter" = "تويتر";
+"Google" = "جوجل";
+"Facebook" = "فيس بوك";
+"By Signing up you agree to our Terms of Service & that you have read our Privacy Policy" = "بالتسجيل، أنت موافق على الشروط والأحكام وسياسة الخصوصية";
+"SIGN UP" = "التسجيل";
+"Confirm Password" = "تأكيد الرقم السري";
+"Don’t have an account?" = "لايوجد لدي حساب";
+"Password" = "الرقم السري";
+"Forgot Password?" = "استعادة الرقم السري";
+"RESEND OTP" = "اعادة ارسال رقم التأكيد";
+"Enter the verification code" = "الرجاء ادخال الرقم المرسل اليك";
+"sent to" = "ارسال الى";
+"via sms." = "عبر الرسائل القصيرة";
+"OTP Verification" = "تأكيد الرقم المرسل";
+"SUBMIT" = "ارسال";
+"Old Password(6 Digit password)" = "الرقم السري القديم (6 أرقام)";
+"New Password(6 Digit password)" = "الرقم السري الجديد (6 أرقام)";
+"Confirm New Password(6 Digit password)" = "تأكيد الرقم السري الجديد (6 أرقام)";
+"Change Password" = "تغيير الرقم السري";
+"SAVE PASSWORD" = "حفظ الرقم السري";
+"Updating Booking Status..." = "تحديث حالة الطلب";
+"Fetching Booking Data ..." = "جار استدعاء بينات الطلب ...";
+"No offers available" = "لايوجد عروض متوفرة";
+"Please enter Promo code" = "الرجاء ادخال كود الخصم";
+"Please login to continue" = "الرجاء الدخول للاستمرار";
+"Terms of Service" = "الشروط والأحكام";
+"Privacy Policy" = "وسياسة الخصوصية";
+//"سياسة الخصوصية";
+"notFoundAddress" = "المطعم الحالي لا يخدم هذة المنطقة حاليا ، يرجى اختيار موقع اخر او مقدم خدمة اخر";
+"Getting Current Location..." = "جار الحصول على الموقع الحالي ...";
+//New String
+"Your query successfully submitted" = "طلب البحث الخاص بك بنجاح";
+"Please check your internet connection." = "الرجاء التحقق من اتصال الانترنت الخاص بك.";
+"Your order will be delivered shortly. Sorry, for the delay." = "طلبك سيتم ايصاله قريبا، نعتذر للتأخير";
+"Referral Code (Optional)" = "رمز الدعوة (إختياري)";
+"All field is mendatory" = "كل الخانات مطلوبة";
+"Email is required" = "الايميل مطلوب";
+"Email is not valid" = "الايميل غير صحيح";
+"Email/Phone is required" = "الايميل والجوال مطلوبين";
+"Phone number is not valid" = "رقم الجوال غير صحيح";
+"First name is required" = "الاسم الاول مطلوب";
+"Invalid first name" = "الاسم الاول غير صحيح";
+"Last name is required" = "الاسم الثاني مطلوب";
+"Invalid last name" = "الاسم الثاني غير صحيح";
+"Password must be six characters" = "الرقم السري يجب ان يكون من 6 أرقام";
+"SignIn/SignUp" = "تسجيل الدخول | سجل";
+"Select Language" = "اختار اللغة";
+"SELECT" = "اختر";
+"Distance" = "مسافه: بعد";
+"Preparation Time" = "وقت التحضير";
+"Please enter your registered Phone number to reset your password." = "الرجاء ادخال رقم الجوال لإستعادة الرقم السري";
+"RESET PASSWORD" = "إعادة تعيين كلمة المرور";
+"NEED HELP?" = "هل تحتاج مساعدة؟";
+"TRACK NOW" = "تابع طلبك الآن";
+"Order Confirmed" = "تم تاكيد طلبك";
+"Order Processed" = "طلب مكتمل";
+"Ready for Pickup" = "طلب جاهز للإستلام";
+"Ready for Delivery" = "طلبك جاهز للتوصيل";
+"We have received your order" = "تم إرسال طلبك الى المطعم ،";
+"Your order has been confirmed" = "تم قبول طلبك بنجاح من قبل المطعم";
+"We are preparing your order" = "الشيف يعمل على تجهيز طلبك";
+"Please Approach the Counter" = "رجى الاقتراب من العداد" ;
+"Your order is ready for delivery" = "طلبك جاهز للتوصيل";
+"Track Order" = "متابعة الطلب";
+"CLOSE" = "اغلاق";
+"Count Down" = "العد التنازلي";
+"Order Number" = "رقم الطلب";
+"HELP" = "مساعدة!";
+"Upcoming" = "الطلبات الحالية";
+"No Orders Found!" = "الطلب غير موجود!";
+"VIEW DETAILS" = "اطلع على التفاصيل";
+"Promotions" = "العروض";
+"View Timing" = "View Timing";
+"All Reviews" = "جميع التقييمات";
+"The Internet connection appears to be offline." = "يرجى التاكد من إتصالك بالشبكة";
+"Session Expired." = "يرجى اعادة تسجيل الدخول";
+"Offers" = "عروض";
+//"Past" = "الحالي";
+"Past" = "الطلبات السابقة";
+"Terms & Conditions" = "الطلب غير موجود!";
+"FAQ’s" = "أسئلة وأجوبة";
+"Contact Us" = "اتصل بنا";
+"About Us" = "معلومات عنا";
+"LOGIN/SIGNUP" = "الدخول / التسجيل ";
+"VERIFY OTP" = "التحقق من رمز التحقق";
+"For each friend that joins and places its first order, you and your friend will receive" = "لكل صديق ينضم معنا ويطلب ستحصل انت وهو على ";
+"Please Select Subject" = "حدد الموضوع";
+"Write Query..." = "سجل ملاحظتك";
+"Please Enter feedback" = "رأيك يهمنا";
+"Enter Name" = "يرجى ادخل الاسم";
+"Enter Email" = "يرجى ادخل الاسم";
+"Select Subject" = "حدد الموضوع";
+"ADD CREDIT" = "اضف رصيد";
+"Info" = "عن فود ستار";
+"respectively" = "على التوالي";
+"Tap to copy" = "انقر للنسخ";
+"Copied" = "منسوخ";
+"Check out FoodFox, Your friend has shared a referral link" = "حياك في فود ستار، صديقك شارك هذا اللنك معك";
+"Refer your friends to FoodFox." = "اخبر اصدقائك عن فودستار";
+"ADDRESS DETAILS" = "معلومات العنوان";
+"You don't have sufficient funds in your wallet." = "لايوجد لديك رصيد كافي في المحفظه";
+"View Timing >" = "أوقات العمل<";
+"Minimum order amount must be" = "الحد الادنى للطلب هو";
+"Open Now" = "مفتوح الان";
+"Closed Now" = "مغلق حالياَ";
+"Busy Now" = "مشغول حالياَ";
+
+//Enahancment Added
+
+//Home
+"Advertising"="إعلان ";
+"Hide"="إخفاء";
+//Restaurant Details
+"Select this Branch"="اختر هذا الفرع";
+"GET THE DIRECTIONS"="الحصول على الأتجاهات";
+"SELECT OUTLET"="أختر المخرج ";
+"VIEW REVIEWS"="عرض التعليقات ";
+"Cancel"="إلغاء";
+"Description"="وصف";
+
+//SideMenu
+"Setting"="الأعدادت";
+"Switch to Night Mode"="تغيير الى الوضع الليلي ";
+"Points:"="نقاط:";
+"You Have Got The Heighest Level"="لقد حصلت على أعلى مستوى";
+"  PLATINUM MEMBER  "="عضو البلاتين";
+"  SILVER MEMBER  "="عضو فضي";
+"  GOLD MEMBER  "="عضو ذهبي";
+"Gold Level"="مستوى الذهب";
+"Silver Level"="المستوى الفضي";
+"Platinum Level"="المستوى البلاتيني";
+
+//Addresses
+"My Addresses"="عناويني";
+//Profile
+"Change Password"="تغيير كلمة السر ";
+"REWARDS"="المكافأت";
+"Points"="نقاط";
+"E-mail"="البريد الألكتروني ";
+"Phone No"="رقم الجوال";
+"Edit"="تعديل";
+
+
+//Choose Delivery
+"HOME DELIVERY"="توصيل منزلي";
+"PICKUP ORDER"="انتقاء النظام";
+"Welcome to FoodFox"="مرحبا بكم في فود ستار";
+"Start your Order Now"="ابدأ طلبك الآن";
+//Online contaner
+"Customizations available"="التخصيص متاح";
+"STATUS TRACKING"="تتبع الحالة";
+//Add ons
+"CUSTOMIZE"="تفصيل";
+"CANCEL"="الغاء";

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MessageAlertView" customModule="FoodFox" customModuleProvider="target">
+            <connections>
+                <outlet property="messageLabel" destination="aaA-6D-rWT" id="Oip-7V-nna"/>
+                <outlet property="messageView" destination="gLF-j6-3T7" id="VGx-1b-PsK"/>
+                <outlet property="okBtn" destination="7tQ-Dq-loS" id="yOM-xg-6ff"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="MessageAlertView" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gLF-j6-3T7">
+                    <rect key="frame" x="30" y="258.5" width="315" height="150"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your order will be delivered shortly. Sorry, for the delay." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aaA-6D-rWT">
+                            <rect key="frame" x="10" y="30" width="295" height="45"/>
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16"/>
+                            <color key="textColor" red="0.2470588235" green="0.2470588235" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7tQ-Dq-loS">
+                            <rect key="frame" x="0.0" y="100" width="315" height="50"/>
+                            <color key="backgroundColor" red="0.98039215690000003" green="0.54901960780000003" blue="0.019607843140000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="tuq-ME-osv"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="15"/>
+                            <state key="normal" title="OK">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="okAction:" destination="-1" eventType="touchUpInside" id="0iX-56-0Xc"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="7tQ-Dq-loS" secondAttribute="trailing" id="Daf-9d-pIG"/>
+                        <constraint firstAttribute="height" constant="150" id="SC3-1S-Byw"/>
+                        <constraint firstItem="aaA-6D-rWT" firstAttribute="leading" secondItem="gLF-j6-3T7" secondAttribute="leading" constant="10" id="Tl1-Ji-SXv"/>
+                        <constraint firstItem="7tQ-Dq-loS" firstAttribute="leading" secondItem="gLF-j6-3T7" secondAttribute="leading" id="X7g-N3-dXx"/>
+                        <constraint firstAttribute="bottom" secondItem="7tQ-Dq-loS" secondAttribute="bottom" id="ehn-Du-zjD"/>
+                        <constraint firstAttribute="trailing" secondItem="aaA-6D-rWT" secondAttribute="trailing" constant="10" id="gpq-yj-5ED"/>
+                        <constraint firstItem="aaA-6D-rWT" firstAttribute="top" secondItem="gLF-j6-3T7" secondAttribute="top" constant="30" id="i8h-W6-8yP"/>
+                        <constraint firstItem="aaA-6D-rWT" firstAttribute="centerX" secondItem="gLF-j6-3T7" secondAttribute="centerX" id="qJs-kc-2ow"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.60300727739726023" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gLF-j6-3T7" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="5OA-Ep-F8n"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gLF-j6-3T7" secondAttribute="trailing" constant="30" id="8cH-L2-xhV"/>
+                <constraint firstItem="gLF-j6-3T7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="eOB-Zw-fDY"/>
+                <constraint firstItem="gLF-j6-3T7" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="r7n-Ua-rn2"/>
+            </constraints>
+            <point key="canvasLocation" x="-326.5" y="-26.5"/>
+        </view>
+    </objects>
+</document>

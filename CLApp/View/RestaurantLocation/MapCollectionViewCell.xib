@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MapCollectionViewCell" id="gTV-IL-0wX" customClass="MapCollectionViewCell" customModule="FoodFox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="401" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="401" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="phf-Ab-CLp">
+                        <rect key="frame" x="0.0" y="0.0" width="401" height="100"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foodstarPlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="ouV-Jl-snj">
+                                <rect key="frame" x="25" y="10" width="85" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="4ho-Uo-jVW"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNI-So-qXA">
+                                <rect key="frame" x="86" y="10" width="24" height="24"/>
+                                <color key="backgroundColor" red="0.77647058823529413" green="0.0" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="IEe-tU-FQd"/>
+                                    <constraint firstAttribute="width" constant="24" id="sws-v6-NXp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="9"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Big Chef" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MNc-iT-LHK">
+                                <rect key="frame" x="120" y="15" width="271" height="24.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24.5" id="6e9-10-tlF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                                <color key="textColor" red="0.24705882352941178" green="0.24705882352941178" blue="0.24705882352941178" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fish, Chicken (Non Veg Only)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ayv-2C-vg8">
+                                <rect key="frame" x="120" y="41.5" width="169" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="tv9-by-w2T"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
+                                <color key="textColor" red="0.50196078431372548" green="0.54117647058823526" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60 mins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M65-sc-220">
+                                <rect key="frame" x="120" y="61.5" width="80" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="8eM-xG-cUN"/>
+                                    <constraint firstAttribute="height" constant="18" id="9yN-lt-N8m"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
+                                <color key="textColor" red="0.50196078430000002" green="0.54117647059999996" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qbf-mQ-U8O">
+                                <rect key="frame" x="200" y="68.5" width="3" height="3"/>
+                                <color key="backgroundColor" red="0.50196078430000002" green="0.54117647059999996" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="3" id="4Jh-KC-Fdp"/>
+                                    <constraint firstAttribute="height" constant="3" id="vmT-U0-muX"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$30 min order" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQK-3L-m1u">
+                                <rect key="frame" x="210" y="61.5" width="120" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="4SF-UG-28w"/>
+                                    <constraint firstAttribute="height" constant="18" id="vup-jB-9nd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
+                                <color key="textColor" red="0.50196078430000002" green="0.54117647059999996" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$10 Delivery Cost" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dc6-h6-xAu">
+                                <rect key="frame" x="120" y="81.5" width="107.5" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="C0f-Y3-8Mv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
+                                <color key="textColor" red="0.50196078430000002" green="0.54117647059999996" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WNI-So-qXA" firstAttribute="top" secondItem="ouV-Jl-snj" secondAttribute="top" id="5Dr-Bq-af8"/>
+                            <constraint firstAttribute="trailing" secondItem="MNc-iT-LHK" secondAttribute="trailing" constant="10" id="9Hc-n2-pic"/>
+                            <constraint firstItem="M65-sc-220" firstAttribute="top" secondItem="ayv-2C-vg8" secondAttribute="bottom" constant="2" id="DEh-qr-GRa"/>
+                            <constraint firstItem="ouV-Jl-snj" firstAttribute="top" secondItem="phf-Ab-CLp" secondAttribute="top" constant="10" id="FvI-x4-0bg"/>
+                            <constraint firstItem="ayv-2C-vg8" firstAttribute="top" secondItem="MNc-iT-LHK" secondAttribute="bottom" constant="2" id="HWk-0r-C18"/>
+                            <constraint firstItem="ayv-2C-vg8" firstAttribute="leading" secondItem="MNc-iT-LHK" secondAttribute="leading" id="IHU-Cp-XDA"/>
+                            <constraint firstItem="yQK-3L-m1u" firstAttribute="leading" secondItem="qbf-mQ-U8O" secondAttribute="leading" constant="10" id="KuC-uL-4Zd"/>
+                            <constraint firstAttribute="height" constant="100" id="Mc8-5F-2Do"/>
+                            <constraint firstItem="dc6-h6-xAu" firstAttribute="top" secondItem="M65-sc-220" secondAttribute="bottom" constant="2" id="MeG-eD-1mJ"/>
+                            <constraint firstItem="WNI-So-qXA" firstAttribute="trailing" secondItem="ouV-Jl-snj" secondAttribute="trailing" id="OUX-Gi-fG6"/>
+                            <constraint firstAttribute="bottom" secondItem="ouV-Jl-snj" secondAttribute="bottom" constant="10" id="R4t-pb-eWe"/>
+                            <constraint firstItem="MNc-iT-LHK" firstAttribute="leading" secondItem="ouV-Jl-snj" secondAttribute="trailing" constant="10" id="UUk-3g-PHZ"/>
+                            <constraint firstItem="qbf-mQ-U8O" firstAttribute="top" secondItem="ayv-2C-vg8" secondAttribute="bottom" constant="9" id="fRk-zC-WKO"/>
+                            <constraint firstItem="ouV-Jl-snj" firstAttribute="leading" secondItem="phf-Ab-CLp" secondAttribute="leading" constant="25" id="htQ-OG-aGz"/>
+                            <constraint firstItem="dc6-h6-xAu" firstAttribute="leading" secondItem="ayv-2C-vg8" secondAttribute="leading" id="m2t-7w-oHF"/>
+                            <constraint firstItem="qbf-mQ-U8O" firstAttribute="leading" secondItem="M65-sc-220" secondAttribute="trailing" id="mRK-3f-sTv"/>
+                            <constraint firstItem="MNc-iT-LHK" firstAttribute="top" secondItem="phf-Ab-CLp" secondAttribute="top" constant="15" id="p0B-xM-NfG"/>
+                            <constraint firstItem="M65-sc-220" firstAttribute="leading" secondItem="ayv-2C-vg8" secondAttribute="leading" id="x97-vF-nji"/>
+                            <constraint firstItem="yQK-3L-m1u" firstAttribute="top" secondItem="ayv-2C-vg8" secondAttribute="bottom" constant="2" id="zMt-8r-3r3"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="phf-Ab-CLp" secondAttribute="bottom" id="Jrl-xj-9dK"/>
+                <constraint firstAttribute="trailing" secondItem="phf-Ab-CLp" secondAttribute="trailing" id="SGO-VY-ukP"/>
+                <constraint firstItem="phf-Ab-CLp" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ash-lg-ZDr"/>
+                <constraint firstItem="phf-Ab-CLp" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="xwy-tP-X6q"/>
+            </constraints>
+            <size key="customSize" width="401" height="146"/>
+            <connections>
+                <outlet property="backView" destination="phf-Ab-CLp" id="Ho3-Jd-Apk"/>
+                <outlet property="deliveryCost" destination="dc6-h6-xAu" id="OTa-oB-0e7"/>
+                <outlet property="descriptionlabel" destination="ayv-2C-vg8" id="3lw-ay-M4C"/>
+                <outlet property="dotViews" destination="qbf-mQ-U8O" id="Qjg-uZ-3qF"/>
+                <outlet property="estimatedTimeLabel" destination="M65-sc-220" id="AFm-Lp-JSr"/>
+                <outlet property="priceLabel" destination="yQK-3L-m1u" id="wg5-xB-pEv"/>
+                <outlet property="ratinglabel" destination="WNI-So-qXA" id="IUP-Il-p99"/>
+                <outlet property="restaurantLogoImage" destination="ouV-Jl-snj" id="C7f-Io-575"/>
+                <outlet property="restaurantNameLabel" destination="MNc-iT-LHK" id="39H-nS-5y7"/>
+            </connections>
+            <point key="canvasLocation" x="36.5" y="-20"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="foodstarPlaceholder" width="99" height="99"/>
+    </resources>
+</document>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CardTableViewCell" rowHeight="62" id="KGk-i7-Jjw" customClass="CardTableViewCell" customModule="FoodFox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="403" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="403" height="55"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="pBF-Hw-4LW">
+                        <rect key="frame" x="15" y="5" width="140" height="20"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejK-cl-XeY">
+                                <rect key="frame" x="10" y="0.0" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="53C-cH-zsN"/>
+                                    <constraint firstAttribute="height" constant="20" id="kQA-LG-9L6"/>
+                                </constraints>
+                                <state key="normal" image="radioRedOn"/>
+                                <connections>
+                                    <action selector="checkBoxButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Q8f-1B-1BZ"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_card" translatesAutoresizingMaskIntoConstraints="NO" id="7Vi-zq-Y3Q">
+                                <rect key="frame" x="40" y="0.0" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="sZ1-Fe-sNI"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App Wallet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hv7-yZ-pWq">
+                                <rect key="frame" x="68" y="0.0" width="72" height="20"/>
+                                <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="13"/>
+                                <color key="textColor" red="0.2470588235" green="0.2470588235" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="ejK-cl-XeY" firstAttribute="centerY" secondItem="pBF-Hw-4LW" secondAttribute="centerY" id="8ds-Ua-QIN"/>
+                            <constraint firstItem="7Vi-zq-Y3Q" firstAttribute="leading" secondItem="ejK-cl-XeY" secondAttribute="trailing" constant="10" id="Cit-J4-YRa"/>
+                            <constraint firstItem="ejK-cl-XeY" firstAttribute="leading" secondItem="pBF-Hw-4LW" secondAttribute="leading" constant="10" id="qm2-jw-wQ0"/>
+                        </constraints>
+                    </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpg-6g-eHx">
+                        <rect key="frame" x="367.5" y="6" width="19.5" height="18.5"/>
+                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="13"/>
+                        <color key="textColor" red="0.98039215690000003" green="0.54901960780000003" blue="0.019607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fgD-9M-jpc">
+                        <rect key="frame" x="15" y="34" width="388" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="IQd-uK-uGH"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fgD-9M-jpc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Lk3-Z0-RRB"/>
+                    <constraint firstItem="wpg-6g-eHx" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="YZ6-Rz-yEn"/>
+                    <constraint firstItem="pBF-Hw-4LW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="fM5-aC-BpL"/>
+                    <constraint firstAttribute="bottom" secondItem="pBF-Hw-4LW" secondAttribute="bottom" constant="5" id="gUJ-Su-wo2"/>
+                    <constraint firstAttribute="bottom" secondItem="fgD-9M-jpc" secondAttribute="bottom" constant="-5" id="j66-ed-GLf"/>
+                    <constraint firstItem="pBF-Hw-4LW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="mgY-ms-Fgz"/>
+                    <constraint firstAttribute="trailing" secondItem="fgD-9M-jpc" secondAttribute="trailing" id="oRK-Qd-0th"/>
+                    <constraint firstItem="wpg-6g-eHx" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="oYI-hC-tyq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bottomView" destination="fgD-9M-jpc" id="jcx-M1-KyN"/>
+                <outlet property="cardImage" destination="7Vi-zq-Y3Q" id="P8U-w4-2sN"/>
+                <outlet property="cardTypeName" destination="Hv7-yZ-pWq" id="war-c1-Tbi"/>
+                <outlet property="checkBoxBtn" destination="ejK-cl-XeY" id="i2P-1d-DGX"/>
+                <outlet property="walletPrice" destination="wpg-6g-eHx" id="gDa-4K-RGk"/>
+            </connections>
+            <point key="canvasLocation" x="-68" y="22.03898050974513"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_card" width="18.5" height="16"/>
+        <image name="radioRedOn" width="24.5" height="24.5"/>
+    </resources>
+</document>

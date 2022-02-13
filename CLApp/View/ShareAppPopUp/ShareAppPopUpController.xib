@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShareAppPopUpController" customModule="FoodStar" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="YPD-iX-7Xh" id="JiS-wE-vYa"/>
+                <outlet property="tapView" destination="BCe-SG-mgk" id="egk-bP-aLr"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="ShareAppPopUpController" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="YPD-iX-7Xh">
+                    <rect key="frame" x="324" y="60" width="45" height="400"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="400" id="18A-Bf-Mes"/>
+                        <constraint firstAttribute="width" constant="45" id="J4s-oR-5oB"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="8ca-b9-emt">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BCe-SG-mgk">
+                    <rect key="frame" x="292" y="0.0" width="83" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="83" id="1Tb-Cj-Kke"/>
+                        <constraint firstAttribute="height" constant="60" id="QkS-Wm-Bl6"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="BCe-SG-mgk" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="6wD-xX-ccS"/>
+                <constraint firstItem="YPD-iX-7Xh" firstAttribute="top" secondItem="BCe-SG-mgk" secondAttribute="bottom" id="EuE-I7-JOJ"/>
+                <constraint firstItem="BCe-SG-mgk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Mu9-em-K2o"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="YPD-iX-7Xh" secondAttribute="trailing" constant="6" id="sSY-Wf-YkA"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="25.5" y="52.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrderRatingCellTableViewCell" rowHeight="110" id="KGk-i7-Jjw" customClass="OrderRatingCellTableViewCell" customModule="FoodStar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="109.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_sponser" translatesAutoresizingMaskIntoConstraints="NO" id="QPG-3o-ijV">
+                        <rect key="frame" x="17" y="15" width="70" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="Ikj-fa-VOd"/>
+                            <constraint firstAttribute="height" constant="70" id="NzX-uf-ygw"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="C4K-pF-N81">
+                        <rect key="frame" x="95" y="29.5" width="177" height="42"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Big Chef" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aeQ-bz-TXl">
+                                <rect key="frame" x="0.0" y="0.0" width="62" height="19"/>
+                                <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                                <color key="textColor" red="0.2470588235" green="0.2470588235" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="g9h-vN-o4S">
+                                <rect key="frame" x="0.0" y="27" width="83" height="15"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unSelectedRate" translatesAutoresizingMaskIntoConstraints="NO" id="tkJ-rK-fL9">
+                                        <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="15" id="M57-jR-ZMm"/>
+                                            <constraint firstAttribute="width" constant="15" id="Yqw-kN-vZG"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unSelectedRate" translatesAutoresizingMaskIntoConstraints="NO" id="b3j-7h-vWx">
+                                        <rect key="frame" x="17" y="0.0" width="15" height="15"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unSelectedRate" translatesAutoresizingMaskIntoConstraints="NO" id="b5j-Xg-2mx">
+                                        <rect key="frame" x="34" y="0.0" width="15" height="15"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unSelectedRate" translatesAutoresizingMaskIntoConstraints="NO" id="c4H-Oc-tAQ">
+                                        <rect key="frame" x="51" y="0.0" width="15" height="15"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unSelectedRate" translatesAutoresizingMaskIntoConstraints="NO" id="YD1-rr-yIr">
+                                        <rect key="frame" x="68" y="0.0" width="15" height="15"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNy-7I-xI2">
+                        <rect key="frame" x="277" y="32" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="cHl-ep-Vy9"/>
+                            <constraint firstAttribute="width" constant="35" id="eHx-w7-kcG"/>
+                        </constraints>
+                        <state key="normal" image="greenCall"/>
+                        <connections>
+                            <action selector="callAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="caP-FO-Xju"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="QPG-3o-ijV" secondAttribute="bottom" constant="16.5" id="5b4-NJ-Z5y"/>
+                    <constraint firstItem="C4K-pF-N81" firstAttribute="leading" secondItem="QPG-3o-ijV" secondAttribute="trailing" constant="8" symbolic="YES" id="DNr-l5-7oB"/>
+                    <constraint firstItem="QPG-3o-ijV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="De1-E4-Sia"/>
+                    <constraint firstItem="tNy-7I-xI2" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="Oug-RQ-SPr"/>
+                    <constraint firstItem="C4K-pF-N81" firstAttribute="centerY" secondItem="QPG-3o-ijV" secondAttribute="centerY" id="TR7-Ae-Bz9"/>
+                    <constraint firstItem="QPG-3o-ijV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="WA0-U2-2Tp"/>
+                    <constraint firstItem="tNy-7I-xI2" firstAttribute="leading" secondItem="C4K-pF-N81" secondAttribute="trailing" constant="5" id="jQc-aJ-fXg"/>
+                    <constraint firstItem="tNy-7I-xI2" firstAttribute="centerY" secondItem="C4K-pF-N81" secondAttribute="centerY" id="kYw-r7-1N5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="fifthRate" destination="YD1-rr-yIr" id="mMt-oB-Yvk"/>
+                <outlet property="firstRate" destination="tkJ-rK-fL9" id="Pbd-ir-CvV"/>
+                <outlet property="fourthRate" destination="c4H-Oc-tAQ" id="P1P-x0-zAI"/>
+                <outlet property="itemImage" destination="QPG-3o-ijV" id="Zz1-eG-WCe"/>
+                <outlet property="itemName" destination="aeQ-bz-TXl" id="kmN-Mb-e2w"/>
+                <outlet property="secondRate" destination="b3j-7h-vWx" id="dvr-Aq-Llg"/>
+                <outlet property="thirdRate" destination="b5j-Xg-2mx" id="yBe-nl-Von"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="87"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="greenCall" width="40" height="40"/>
+        <image name="ic_sponser" width="130" height="140"/>
+        <image name="unSelectedRate" width="22" height="22"/>
+    </resources>
+</document>

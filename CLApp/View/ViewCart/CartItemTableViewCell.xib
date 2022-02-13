@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CartItemTableViewCell" rowHeight="109" id="KGk-i7-Jjw" customClass="CartItemTableViewCell" customModule="FoodStar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="357" height="109"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="357" height="108.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuItem" translatesAutoresizingMaskIntoConstraints="NO" id="LVq-zK-ldv">
+                        <rect key="frame" x="15" y="15" width="70" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="3xk-X1-1q3"/>
+                            <constraint firstAttribute="height" constant="70" id="dQa-zl-HB2"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Big Chef" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZmN-t3-Spg">
+                        <rect key="frame" x="100" y="19" width="236" height="24.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24.5" id="f7d-Ke-ggV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                        <color key="textColor" red="0.24705882352941178" green="0.24705882352941178" blue="0.24705882352941178" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fish, Chicken (Non Veg Only)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8z-kg-6I4">
+                        <rect key="frame" x="100" y="45.5" width="236" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="1j5-3U-6Vc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
+                        <color key="textColor" red="0.50196078431372548" green="0.54117647058823526" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivers in 60 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NhL-pp-pug">
+                        <rect key="frame" x="100" y="65.5" width="103" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="6cR-tc-hJh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
+                        <color key="textColor" red="0.50196078431372548" green="0.54117647058823526" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="LVq-zK-ldv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="AEo-OA-Dv2"/>
+                    <constraint firstAttribute="bottom" secondItem="NhL-pp-pug" secondAttribute="bottom" constant="25" id="Aab-7y-Zre"/>
+                    <constraint firstItem="h8z-kg-6I4" firstAttribute="top" secondItem="ZmN-t3-Spg" secondAttribute="bottom" constant="2" id="Cle-sG-AYR"/>
+                    <constraint firstItem="ZmN-t3-Spg" firstAttribute="leading" secondItem="LVq-zK-ldv" secondAttribute="trailing" constant="15" id="Kjd-Q8-1mU"/>
+                    <constraint firstItem="LVq-zK-ldv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Ok1-Hi-To4"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="h8z-kg-6I4" secondAttribute="trailing" constant="5" id="P4k-db-xbQ"/>
+                    <constraint firstItem="NhL-pp-pug" firstAttribute="leading" secondItem="h8z-kg-6I4" secondAttribute="leading" id="cng-Yx-GnD"/>
+                    <constraint firstItem="ZmN-t3-Spg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="19" id="lFl-zX-M6P"/>
+                    <constraint firstItem="h8z-kg-6I4" firstAttribute="leading" secondItem="ZmN-t3-Spg" secondAttribute="leading" id="lU3-Fo-hJV"/>
+                    <constraint firstItem="NhL-pp-pug" firstAttribute="top" secondItem="h8z-kg-6I4" secondAttribute="bottom" constant="2" id="uqV-zk-mVr"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="ZmN-t3-Spg" secondAttribute="trailing" constant="5" id="vQr-Mw-Tm8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="deliveryTime" destination="NhL-pp-pug" id="vJR-2x-KLp"/>
+                <outlet property="itemImage" destination="LVq-zK-ldv" id="6Xs-cd-dyh"/>
+                <outlet property="restaurantDiscription" destination="h8z-kg-6I4" id="Nft-bH-Ni0"/>
+                <outlet property="restuarantName" destination="ZmN-t3-Spg" id="3u2-ea-t5Z"/>
+            </connections>
+            <point key="canvasLocation" x="-160.5" y="-117.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="menuItem" width="375" height="180"/>
+    </resources>
+</document>

@@ -1,0 +1,21 @@
+//
+//  CLApp-Dev.xcconfig
+//  CLApp
+//
+//  Created by Socomo on 12/28/16.
+//  Copyright © 2016 Hardeep Singh. All rights reserved.
+//
+
+//*********************** Dev Keys ********************//
+
+SLASH = /
+APP_ENVIRONMENT = Develop
+BASE_URL = http:$(SLASH)/ec2-3-133-89-2.us-east-2.compute.amazonaws.com:3000
+FACEBOOK_ID = 935443273620643
+GOOGLE_CLIENT_ID = 386261241269-2sf4q9ec3gqcngqh0j1a4ml3mdacrsnq.apps.googleusercontent.com
+APP_BUNDLE_IDENTIFIER = com.foodfox.customerapp
+
+
+
+
+

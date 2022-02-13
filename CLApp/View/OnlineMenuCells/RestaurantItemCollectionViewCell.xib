@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="RestaurantItemCollectionViewCell" reuseIdentifier="RestaurantItemCollectionViewCell" id="gTV-IL-0wX" customClass="RestaurantItemCollectionViewCell" customModule="FoodFox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="216" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="216" height="60"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recommended Menu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N2P-BF-eI2">
+                        <rect key="frame" x="32" y="20" width="152" height="20"/>
+                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZaM-1W-eQw">
+                        <rect key="frame" x="-8" y="52" width="232" height="5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="5" id="wfj-4O-bhy"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="N2P-BF-eI2" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="GbM-cH-bte"/>
+                <constraint firstItem="N2P-BF-eI2" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="bYY-tL-z6u"/>
+                <constraint firstItem="ZaM-1W-eQw" firstAttribute="trailing" secondItem="N2P-BF-eI2" secondAttribute="trailing" constant="40" id="cDB-w0-z2O"/>
+                <constraint firstItem="ZaM-1W-eQw" firstAttribute="top" secondItem="N2P-BF-eI2" secondAttribute="bottom" constant="12" id="cdG-aU-2z9"/>
+                <constraint firstItem="ZaM-1W-eQw" firstAttribute="leading" secondItem="N2P-BF-eI2" secondAttribute="leading" constant="-40" id="qYF-ad-BxB"/>
+            </constraints>
+            <size key="customSize" width="216" height="47"/>
+            <connections>
+                <outlet property="nameOfItem" destination="N2P-BF-eI2" id="19w-Ui-RxR"/>
+                <outlet property="scrollView" destination="ZaM-1W-eQw" id="gbF-Qv-3bh"/>
+            </connections>
+            <point key="canvasLocation" x="-146" y="-71"/>
+        </collectionViewCell>
+    </objects>
+</document>

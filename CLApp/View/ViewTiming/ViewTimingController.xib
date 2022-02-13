@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewTimingController" customModule="Foodies" customModuleProvider="target">
+            <connections>
+                <outlet property="availabilityView" destination="5Qe-Rg-PmH" id="lyI-ss-1Wc"/>
+                <outlet property="statusLabel" destination="VQz-P3-zrA" id="GQb-4q-zGD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewTimeTable" destination="1IM-K9-y0s" id="fJj-DL-fuw"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="ViewTimingController" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Qe-Rg-PmH">
+                    <rect key="frame" x="30" y="208.5" width="315" height="250"/>
+                    <subviews>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redbgImage" translatesAutoresizingMaskIntoConstraints="NO" id="imi-Iy-vxa">
+                            <rect key="frame" x="0.0" y="0.0" width="315" height="250"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSa-Il-4fv">
+                            <rect key="frame" x="269" y="0.0" width="46" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="C71-2u-osd"/>
+                                <constraint firstAttribute="width" constant="46" id="Qkj-VW-jvT"/>
+                            </constraints>
+                            <state key="normal" image="redCancel"/>
+                            <connections>
+                                <action selector="crossBtn:" destination="-1" eventType="touchUpInside" id="dmU-gh-MV0"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Open Now" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQz-P3-zrA">
+                            <rect key="frame" x="116" y="20" width="83.5" height="22.5"/>
+                            <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1IM-K9-y0s">
+                            <rect key="frame" x="0.0" y="57.5" width="315" height="192.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.41176470588235292" green="0.75294117647058822" blue="0.28235294117647058" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="imi-Iy-vxa" secondAttribute="trailing" id="4L5-ON-6Cs"/>
+                        <constraint firstItem="dSa-Il-4fv" firstAttribute="top" secondItem="5Qe-Rg-PmH" secondAttribute="top" id="7ay-qp-ato"/>
+                        <constraint firstItem="VQz-P3-zrA" firstAttribute="top" secondItem="5Qe-Rg-PmH" secondAttribute="top" constant="20" id="DF9-J9-1wz"/>
+                        <constraint firstItem="1IM-K9-y0s" firstAttribute="leading" secondItem="5Qe-Rg-PmH" secondAttribute="leading" id="EQl-QO-oiU"/>
+                        <constraint firstAttribute="height" constant="250" id="Kef-4L-Tsc"/>
+                        <constraint firstItem="VQz-P3-zrA" firstAttribute="centerX" secondItem="5Qe-Rg-PmH" secondAttribute="centerX" id="NCc-5P-WJl"/>
+                        <constraint firstAttribute="bottom" secondItem="1IM-K9-y0s" secondAttribute="bottom" id="UxJ-bi-8Nu"/>
+                        <constraint firstAttribute="trailing" secondItem="dSa-Il-4fv" secondAttribute="trailing" id="ar4-XW-Kld"/>
+                        <constraint firstAttribute="trailing" secondItem="1IM-K9-y0s" secondAttribute="trailing" id="iBF-Wz-pVx"/>
+                        <constraint firstItem="1IM-K9-y0s" firstAttribute="top" secondItem="VQz-P3-zrA" secondAttribute="bottom" constant="15" id="mIr-Us-Lr7"/>
+                        <constraint firstAttribute="bottom" secondItem="imi-Iy-vxa" secondAttribute="bottom" id="nJv-vE-P0W"/>
+                        <constraint firstItem="imi-Iy-vxa" firstAttribute="top" secondItem="5Qe-Rg-PmH" secondAttribute="top" id="vr8-PD-tMy"/>
+                        <constraint firstItem="imi-Iy-vxa" firstAttribute="leading" secondItem="5Qe-Rg-PmH" secondAttribute="leading" id="yye-lO-Dmw"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.60883989726027399" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="5Qe-Rg-PmH" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="0ZE-Za-hSe"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="5Qe-Rg-PmH" secondAttribute="trailing" constant="30" id="PJh-4I-eLZ"/>
+                <constraint firstItem="5Qe-Rg-PmH" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="oZ4-w3-b27"/>
+                <constraint firstItem="5Qe-Rg-PmH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="uw9-97-C3s"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="redCancel" width="55" height="55"/>
+        <image name="redbgImage" width="375" height="667"/>
+    </resources>
+</document>

@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  CLApp
+
+  Created by cl-macmini-68 on 07/12/16.
+  Copyright © 2016 Hardeep Singh. All rights reserved.
+*/
+
+"CurrentLanguage" = "******* ENGLISH  *********";
+"Login" = "Login";
+"Ok" = "Ok";
+
+//----
+"A special character is mandatory" = "A special character is mandatory";
+"A special symbol is mandatory" = "A special symbol is mandatory";
+"Password_must be eight characters" = "Password must be eight characters";

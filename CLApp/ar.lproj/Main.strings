@@ -1,0 +1,192 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "0bt-xk-Z45"; */
+"0bt-xk-Z45.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Password (6 Digit Password)"; ObjectID = "2MK-JP-iVR"; */
+"2MK-JP-iVR.placeholder" = "Password (6 Digit Password)";
+
+/* Class = "UILabel"; text = "or"; ObjectID = "2TX-LS-i6C"; */
+"2TX-LS-i6C.text" = "or";
+
+/* Class = "UILabel"; text = "Forgot Password"; ObjectID = "3BC-2q-RuH"; */
+"3BC-2q-RuH.text" = "Forgot Password";
+
+/* Class = "UILabel"; text = "Sign in "; ObjectID = "3Wm-Ne-PA1"; */
+"3Wm-Ne-PA1.text" = "Sign in ";
+
+/* Class = "UIButton"; normalTitle = "Facebook"; ObjectID = "3lk-CR-Epa"; */
+"3lk-CR-Epa.normalTitle" = "Facebook";
+
+/* Class = "UILabel"; text = "Herbs are fun and easy to grow. When harvested they make even the simplest meal seem like a gourmet delight."; ObjectID = "4BC-0J-jhn"; */
+"4BC-0J-jhn.text" = "Herbs are fun and easy to grow. When harvested they make even the simplest meal seem like a gourmet delight.";
+
+/* Class = "UITextField"; placeholder = "Confirm New Password (6 Digit password)"; ObjectID = "4Le-ik-4XQ"; */
+"4Le-ik-4XQ.placeholder" = "Confirm New Password (6 Digit password)";
+
+/* Class = "UITextField"; placeholder = "New Password (6 Digit password)"; ObjectID = "4zm-SD-PRK"; */
+"4zm-SD-PRK.placeholder" = "New Password (6 Digit password)";
+
+/* Class = "UILabel"; text = "Home Delivery"; ObjectID = "511-Om-m2X"; */
+"511-Om-m2X.text" = "Home Delivery";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "520-gt-jKi"; */
+"520-gt-jKi.normalTitle" = "Login";
+
+/* Class = "UITextField"; placeholder = "Email Address (Optional)"; ObjectID = "5Ak-ak-r3z"; */
+"5Ak-ak-r3z.placeholder" = "Email Address (Optional)";
+
+/* Class = "UILabel"; text = "Forgot Password"; ObjectID = "5Eu-wc-B3u"; */
+"5Eu-wc-B3u.text" = "Forgot Password";
+
+/* Class = "UITextField"; placeholder = "Old Password (6 Digit password)"; ObjectID = "5Tr-KN-YkD"; */
+"5Tr-KN-YkD.placeholder" = "Old Password (6 Digit password)";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "6bn-Cf-nXU"; */
+"6bn-Cf-nXU.placeholder" = "Phone Number";
+
+/* Class = "UIButton"; normalTitle = "RESET PASSWORD"; ObjectID = "7O3-Zy-dTx"; */
+"7O3-Zy-dTx.normalTitle" = "RESET PASSWORD";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "8GV-B4-3eG"; */
+"8GV-B4-3eG.placeholder" = "First Name";
+
+/* Class = "UITextField"; placeholder = "New Mobile Number"; ObjectID = "A7O-JR-pvA"; */
+"A7O-JR-pvA.placeholder" = "New Mobile Number";
+
+/* Class = "UIViewController"; title = "OTPViewController"; ObjectID = "BPr-tL-itn"; */
+"BPr-tL-itn.title" = "OTPViewController";
+
+/* Class = "UIButton"; normalTitle = "Google"; ObjectID = "Bre-Ri-qBu"; */
+"Bre-Ri-qBu.normalTitle" = "Google";
+
+/* Class = "UIButton"; normalTitle = "RESEND OTP"; ObjectID = "C6U-fB-QLC"; */
+"C6U-fB-QLC.normalTitle" = "RESEND OTP";
+
+/* Class = "UIButton"; normalTitle = "Email ID/ Phone Number"; ObjectID = "CCa-v8-eNh"; */
+"CCa-v8-eNh.normalTitle" = "Email ID/ Phone Number";
+
+/* Class = "UIButton"; normalTitle = "Facebook"; ObjectID = "Eri-e3-TGP"; */
+"Eri-e3-TGP.normalTitle" = "Facebook";
+
+/* Class = "UILabel"; text = "OTP Verification"; ObjectID = "Eu5-4o-CRk"; */
+"Eu5-4o-CRk.text" = "OTP Verification";
+
+/* Class = "UILabel"; text = "Don’t have an account?"; ObjectID = "H4a-RE-gxn"; */
+"H4a-RE-gxn.text" = "Don’t have an account?";
+
+/* Class = "UIButton"; normalTitle = "SAVE PASSWORD"; ObjectID = "HRT-Yq-sHH"; */
+"HRT-Yq-sHH.normalTitle" = "SAVE PASSWORD";
+
+/* Class = "UIButton"; normalTitle = "Twitter"; ObjectID = "Hcf-qx-vcr"; */
+"Hcf-qx-vcr.normalTitle" = "Twitter";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "InH-bM-RcC"; */
+"InH-bM-RcC.placeholder" = "Phone Number";
+
+/* Class = "UIButton"; normalTitle = "Google"; ObjectID = "IpR-5g-S8H"; */
+"IpR-5g-S8H.normalTitle" = "Google";
+
+/* Class = "UIViewController"; title = "ResetPasswordController"; ObjectID = "JCF-RF-Azp"; */
+"JCF-RF-Azp.title" = "ResetPasswordController";
+
+/* Class = "UIButton"; normalTitle = "Twitter"; ObjectID = "KUM-fj-4Bh"; */
+"KUM-fj-4Bh.normalTitle" = "Twitter";
+
+/* Class = "UILabel"; text = "Sign up"; ObjectID = "NM2-bv-f93"; */
+"NM2-bv-f93.text" = "Sign up";
+
+/* Class = "UILabel"; text = "Or"; ObjectID = "NgQ-Cd-fcY"; */
+"NgQ-Cd-fcY.text" = "Or";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "NiO-O2-XiR"; */
+"NiO-O2-XiR.placeholder" = "password";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "Nj2-Ng-Ksz"; */
+"Nj2-Ng-Ksz.normalTitle" = "SIGN IN";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "O82-T9-ONk"; */
+"O82-T9-ONk.placeholder" = "email";
+
+/* Class = "UIButton"; normalTitle = "GET STARTED"; ObjectID = "OuU-Y2-X4I"; */
+"OuU-Y2-X4I.normalTitle" = "GET STARTED";
+
+/* Class = "UILabel"; text = "Sign up"; ObjectID = "OxW-3u-0iA"; */
+"OxW-3u-0iA.text" = "Sign up";
+
+/* Class = "UITextField"; placeholder = "Confirm Password (6 Digit Password)"; ObjectID = "Q2u-CM-bZx"; */
+"Q2u-CM-bZx.placeholder" = "Confirm Password (6 Digit Password)";
+
+/* Class = "UILabel"; text = "Change Password"; ObjectID = "SyY-eF-gbX"; */
+"SyY-eF-gbX.text" = "Change Password";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Vni-yC-5dL"; */
+"Vni-yC-5dL.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Signup"; ObjectID = "ZCX-Re-Ny3"; */
+"ZCX-Re-Ny3.normalTitle" = "Signup";
+
+/* Class = "UINavigationItem"; title = "Click Labs"; ObjectID = "ZcY-ym-jVp"; */
+"ZcY-ym-jVp.title" = "Click Labs";
+
+/* Class = "UILabel"; text = "Or"; ObjectID = "aO2-ZU-0pn"; */
+"aO2-ZU-0pn.text" = "Or";
+
+/* Class = "UIButton"; normalTitle = "Forgot password?"; ObjectID = "bP8-6b-RbR"; */
+"bP8-6b-RbR.normalTitle" = "Forgot password?";
+
+/* Class = "UITextField"; placeholder = "Email ID/ Phone Number"; ObjectID = "cVV-sx-tuf"; */
+"cVV-sx-tuf.placeholder" = "Email ID/ Phone Number";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "chA-YP-ahh"; */
+"chA-YP-ahh.normalTitle" = "Send";
+
+/* Class = "UILabel"; text = "or"; ObjectID = "dc4-ge-pd1"; */
+"dc4-ge-pd1.text" = "or";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "eKa-xy-iuL"; */
+"eKa-xy-iuL.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "Already have an account?"; ObjectID = "fGA-ix-KHn"; */
+"fGA-ix-KHn.text" = "Already have an account?";
+
+/* Class = "UILabel"; text = "Enter your new mobile."; ObjectID = "jNN-8o-CrT"; */
+"jNN-8o-CrT.text" = "Enter your new mobile.";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "jgU-rE-P3p"; */
+"jgU-rE-P3p.normalTitle" = "Forgot Password?";
+
+/* Class = "UIButton"; normalTitle = "CREATE ACCOUNT"; ObjectID = "lD3-Qz-W2c"; */
+"lD3-Qz-W2c.normalTitle" = "CREATE ACCOUNT";
+
+/* Class = "UILabel"; text = "Self Pickup"; ObjectID = "lLO-vg-abu"; */
+"lLO-vg-abu.text" = "Self Pickup";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "o4l-np-GuD"; */
+"o4l-np-GuD.normalTitle" = "SUBMIT";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "o9e-63-gzL"; */
+"o9e-63-gzL.normalTitle" = "SIGN UP";
+
+/* Class = "UILabel"; text = "Choose A Delivery Type"; ObjectID = "oeC-EM-UMV"; */
+"oeC-EM-UMV.text" = "Choose A Delivery Type";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "raT-SZ-VS4"; */
+"raT-SZ-VS4.normalTitle" = "SIGN IN";
+
+/* Class = "UILabel"; text = "Enter the verification code \nsent to +1 9888611221 via sms."; ObjectID = "rxL-LW-fjc"; */
+"rxL-LW-fjc.text" = "Enter the verification code \nsent to +1 9888611221 via sms.";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "t5E-5B-iS2"; */
+"t5E-5B-iS2.placeholder" = "Last Name";
+
+/* Class = "UIButton"; normalTitle = "Show"; ObjectID = "udK-3O-4I5"; */
+"udK-3O-4I5.normalTitle" = "Show";
+
+/* Class = "UILabel"; text = "Select your country"; ObjectID = "vjf-DQ-AOB"; */
+"vjf-DQ-AOB.text" = "Select your country";
+
+/* Class = "UILabel"; text = "Or login with"; ObjectID = "y8K-Dq-XJp"; */
+"y8K-Dq-XJp.text" = "Or login with";
+
+/* Class = "UILabel"; text = "+123"; ObjectID = "ydX-rU-MB0"; */
+"ydX-rU-MB0.text" = "+123";

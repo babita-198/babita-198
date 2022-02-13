@@ -1,0 +1,27 @@
+//
+//  CLApp-Test.xcconfig
+//  CLApp
+//
+//  Created by Socomo on 12/28/16.
+//  Copyright © 2016 Hardeep Singh. All rights reserved.
+//
+
+//*********************** Test Keys ********************//
+
+SLASH = /
+APP_ENVIRONMENT = Test
+
+//TestFlight bundle identifier : com.qawafeltech.FoodStarTestFlightDemo
+//Bundle identifier : com.qawafeltech.FoodStar
+//Test run bundle identifier : com.qawafeltech.FoodStarTestMay
+//BASE_URL = https:$(SLASH)/foodstarapi-test.clicklabs.in:443
+
+
+
+
+
+//https://test-api.foodstar.co/documentation
+BASE_URL = https:$(SLASH)/test-api.foodstar.co
+FACEBOOK_ID = 935443273620643
+GOOGLE_CLIENT_ID = 386261241269-2sf4q9ec3gqcngqh0j1a4ml3mdacrsnq.apps.googleusercontent.com
+APP_BUNDLE_IDENTIFIER = com.foodfox.customerapp

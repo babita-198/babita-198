@@ -1,0 +1,18 @@
+//
+//  CLApp-Client.xcconfig
+//  CLApp
+//
+//  Created by Socomo on 12/28/16.
+//  Copyright © 2016 Hardeep Singh. All rights reserved.
+//
+
+// *************************** Client Keys **********************//
+
+SLASH = /
+APP_ENVIRONMENT = Client
+BASE_URL = https:$(SLASH)/api.foodstar.co //https:$(SLASH)/www.foodstar.co
+FACEBOOK_ID = 935443273620643
+GOOGLE_CLIENT_ID = 386261241269-2sf4q9ec3gqcngqh0j1a4ml3mdacrsnq.apps.googleusercontent.com
+APP_BUNDLE_IDENTIFIER = com.foodfox.customerapp
+
+

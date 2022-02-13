@@ -1,0 +1,237 @@
+
+/* Class = "UILabel"; text = "Home Delivery"; ObjectID = "0RO-j7-knA"; */
+"0RO-j7-knA.text" = "Home Delivery";
+
+/* Class = "UILabel"; text = "324 Reviews >"; ObjectID = "2YF-fo-HbV"; */
+"2YF-fo-HbV.text" = "324 Reviews >";
+
+/* Class = "UIViewController"; title = "EditProfileController"; ObjectID = "2c1-OB-b77"; */
+"2c1-OB-b77.title" = "EditProfileController";
+
+/* Class = "UIViewController"; title = "RestaurantMenuDetails"; ObjectID = "2qW-Vm-8aD"; */
+"2qW-Vm-8aD.title" = "RestaurantMenuDetails";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "3fy-SB-S3s"; */
+"3fy-SB-S3s.normalTitle" = "SKIP";
+
+/* Class = "UIButton"; normalTitle = "SAVE & PROCEED"; ObjectID = "4BX-ZN-Ef4"; */
+"4BX-ZN-Ef4.normalTitle" = "SAVE & PROCEED";
+
+/* Class = "UIViewController"; title = "AddOnItemController"; ObjectID = "4Nb-un-3f0"; */
+"4Nb-un-3f0.title" = "AddOnItemController";
+
+/* Class = "UILabel"; text = "$05.00"; ObjectID = "4eB-N0-RMu"; */
+"4eB-N0-RMu.text" = "$05.00";
+
+/* Class = "UILabel"; text = "Promotions"; ObjectID = "52Q-oc-C0y"; */
+"52Q-oc-C0y.text" = "Promotions";
+
+/* Class = "UILabel"; text = "Delivery Cost"; ObjectID = "5Tt-HC-0Tu"; */
+"5Tt-HC-0Tu.text" = "Delivery Cost";
+
+/* Class = "UILabel"; text = "Min Order"; ObjectID = "5XJ-N8-4cF"; */
+"5XJ-N8-4cF.text" = "Min Order";
+
+/* Class = "UILabel"; text = "Open Now"; ObjectID = "6DK-SJ-dYf"; */
+"6DK-SJ-dYf.text" = "Open Now";
+
+/* Class = "UIViewController"; title = "OnlineMenuDetails"; ObjectID = "8fv-Zg-MtP"; */
+"8fv-Zg-MtP.title" = "OnlineMenuDetails";
+
+/* Class = "UILabel"; text = "60 Mins"; ObjectID = "8jt-w0-gw2"; */
+"8jt-w0-gw2.text" = "60 Mins";
+
+/* Class = "UILabel"; text = "324 Reviews >"; ObjectID = "9Bi-f4-XQ4"; */
+"9Bi-f4-XQ4.text" = "324 Reviews >";
+
+/* Class = "UIButton"; normalTitle = "LOGOUT"; ObjectID = "Bfr-Xr-BcC"; */
+"Bfr-Xr-BcC.normalTitle" = "LOGOUT";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "Bk1-j7-RWy"; */
+"Bk1-j7-RWy.normalTitle" = "CANCEL";
+
+/* Class = "UIViewController"; title = "MapViewController"; ObjectID = "CCc-Ji-awU"; */
+"CCc-Ji-awU.title" = "MapViewController";
+
+/* Class = "UILabel"; text = "Gaurav Saini"; ObjectID = "DVA-3B-GO8"; */
+"DVA-3B-GO8.text" = "Gaurav Saini";
+
+/* Class = "UILabel"; text = "Save delivery location"; ObjectID = "Djb-gD-LyV"; */
+"Djb-gD-LyV.text" = "Save delivery location";
+
+/* Class = "UILabel"; text = "Refer your friends to FoodFox. \nFor each friend that joins, you will both receive a $10 credit."; ObjectID = "EtC-8h-yfp"; */
+"EtC-8h-yfp.text" = "Refer your friends to FoodFox. \nFor each friend that joins, you will both receive a $10 credit.";
+
+/* Class = "UIViewController"; title = "RestaurantBranchesController"; ObjectID = "F8O-RB-5vV"; */
+"F8O-RB-5vV.title" = "RestaurantBranchesController";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "H5e-WT-Gnx"; */
+"H5e-WT-Gnx.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Indian"; ObjectID = "HFM-Us-0mw"; */
+"HFM-Us-0mw.text" = "Indian";
+
+/* Class = "UILabel"; text = "fdgfghjgj"; ObjectID = "Jdh-KD-V1x"; */
+"Jdh-KD-V1x.text" = "fdgfghjgj";
+
+/* Class = "UILabel"; text = "Save as"; ObjectID = "KgS-CB-TAi"; */
+"KgS-CB-TAi.text" = "Save as";
+
+/* Class = "UIButton"; normalTitle = "            VIEW CART > "; ObjectID = "MlO-bJ-FmF"; */
+"MlO-bJ-FmF.normalTitle" = "            VIEW CART > ";
+
+/* Class = "UILabel"; text = "10:00 am to 10:00 pm"; ObjectID = "NGS-o8-CNE"; */
+"NGS-o8-CNE.text" = "10:00 am to 10:00 pm";
+
+/* Class = "UITextField"; placeholder = "Landmark (Optional)"; ObjectID = "OXs-P1-5vw"; */
+"OXs-P1-5vw.placeholder" = "Landmark (Optional)";
+
+/* Class = "UILabel"; text = "4.3"; ObjectID = "Oe5-B5-EXE"; */
+"Oe5-B5-EXE.text" = "4.3";
+
+/* Class = "UISearchBar"; placeholder = "Search restaurants"; ObjectID = "PBH-JJ-znz"; */
+"PBH-JJ-znz.placeholder" = "Search restaurants";
+
+/* Class = "UILabel"; text = "Self Pickup"; ObjectID = "Ppd-ED-5II"; */
+"Ppd-ED-5II.text" = "Self Pickup";
+
+/* Class = "UILabel"; text = "Gaurav Saini"; ObjectID = "QMQ-EM-AKP"; */
+"QMQ-EM-AKP.text" = "Gaurav Saini";
+
+/* Class = "UIViewController"; title = "ViewCartController"; ObjectID = "RC3-ZD-G3m"; */
+"RC3-ZD-G3m.title" = "ViewCartController";
+
+/* Class = "UILabel"; text = "Info"; ObjectID = "SIX-QU-aR2"; */
+"SIX-QU-aR2.text" = "Info";
+
+/* Class = "UITextField"; placeholder = "Address"; ObjectID = "SZH-M6-NTy"; */
+"SZH-M6-NTy.placeholder" = "Address";
+
+/* Class = "UILabel"; text = "gaurav.saini@example.com"; ObjectID = "TTJ-Bl-K5r"; */
+"TTJ-Bl-K5r.text" = "gaurav.saini@example.com";
+
+/* Class = "UILabel"; text = "Customize"; ObjectID = "UP5-Bq-v80"; */
+"UP5-Bq-v80.text" = "Customize";
+
+/* Class = "UIButton"; normalTitle = "GET DIRECTIONS >"; ObjectID = "UXy-z2-MSM"; */
+"UXy-z2-MSM.normalTitle" = "GET DIRECTIONS >";
+
+/* Class = "UILabel"; text = "Mon to Sun  "; ObjectID = "V4n-dj-YWu"; */
+"V4n-dj-YWu.text" = "Mon to Sun  ";
+
+/* Class = "UILabel"; text = "1 ITEM IN CART"; ObjectID = "Vee-jB-dld"; */
+"Vee-jB-dld.text" = "1 ITEM IN CART";
+
+/* Class = "UIButton"; normalTitle = "EDIT PROFILE"; ObjectID = "Vin-jE-A1C"; */
+"Vin-jE-A1C.normalTitle" = "EDIT PROFILE";
+
+/* Class = "UILabel"; text = "$ 22"; ObjectID = "Wbf-7i-BaQ"; */
+"Wbf-7i-BaQ.text" = "$ 22";
+
+/* Class = "UILabel"; text = "$30.00"; ObjectID = "Ygi-LL-m9B"; */
+"Ygi-LL-m9B.text" = "$30.00";
+
+/* Class = "UILabel"; text = "SAVEM23XT"; ObjectID = "aPf-48-6ur"; */
+"aPf-48-6ur.text" = "SAVEM23XT";
+
+/* Class = "UILabel"; text = "4.5"; ObjectID = "aWq-ri-Ijd"; */
+"aWq-ri-Ijd.text" = "4.5";
+
+/* Class = "UILabel"; text = "Getting address..."; ObjectID = "bRO-Mh-NOr"; */
+"bRO-Mh-NOr.text" = "Getting address...";
+
+/* Class = "UILabel"; text = "Refer A Friend"; ObjectID = "cDB-L7-ehT"; */
+"cDB-L7-ehT.text" = "Refer A Friend";
+
+/* Class = "UILabel"; text = "Copied"; ObjectID = "eLp-ja-5mV"; */
+"eLp-ja-5mV.text" = "Copied";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "fn1-F1-soH"; */
+"fn1-F1-soH.text" = "Address";
+
+/* Class = "UILabel"; text = "Getting address..."; ObjectID = "hPw-pC-MxW"; */
+"hPw-pC-MxW.text" = "Getting address...";
+
+/* Class = "UILabel"; text = "My Orders"; ObjectID = "hzl-EM-44T"; */
+"hzl-EM-44T.text" = "My Orders";
+
+/* Class = "UIButton"; normalTitle = "SHARE NOW"; ObjectID = "i6Z-TM-jV3"; */
+"i6Z-TM-jV3.normalTitle" = "SHARE NOW";
+
+/* Class = "UILabel"; text = "$ 23.00"; ObjectID = "iZH-oz-Cph"; */
+"iZH-oz-Cph.text" = "$ 23.00";
+
+/* Class = "UILabel"; text = "172 Ernestina Stravenue Apt. 269 "; ObjectID = "j1X-b8-Qw3"; */
+"j1X-b8-Qw3.text" = "172 Ernestina Stravenue Apt. 269 ";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "j44-7a-Yts"; */
+"j44-7a-Yts.normalTitle" = "SKIP";
+
+/* Class = "UILabel"; text = "My Profile"; ObjectID = "kZr-me-Gg5"; */
+"kZr-me-Gg5.text" = "My Profile";
+
+/* Class = "UILabel"; text = "My Profile"; ObjectID = "lf1-C8-m5V"; */
+"lf1-C8-m5V.text" = "My Profile";
+
+/* Class = "UIButton"; normalTitle = "     APPLY      "; ObjectID = "n5R-f0-Y10"; */
+"n5R-f0-Y10.normalTitle" = "     APPLY      ";
+
+/* Class = "UIButton"; normalTitle = "CHANGE PASSWORD"; ObjectID = "o3R-WR-ed5"; */
+"o3R-WR-ed5.normalTitle" = "CHANGE PASSWORD";
+
+/* Class = "UITextField"; placeholder = "Click here and select Address"; ObjectID = "pH7-XG-0Cc"; */
+"pH7-XG-0Cc.placeholder" = "Click here and select Address";
+
+/* Class = "UITextField"; placeholder = "LastName"; ObjectID = "pTq-Dk-bpd"; */
+"pTq-Dk-bpd.placeholder" = "LastName";
+
+/* Class = "UITextField"; placeholder = "+1 9888611221"; ObjectID = "q0b-5Q-aoE"; */
+"q0b-5Q-aoE.placeholder" = "+1 9888611221";
+
+/* Class = "UILabel"; text = "dvbcghn"; ObjectID = "qOH-fv-pYx"; */
+"qOH-fv-pYx.text" = "dvbcghn";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "sS8-6U-R19"; */
+"sS8-6U-R19.normalTitle" = "SAVE";
+
+/* Class = "UIViewController"; title = "SearchRestaurantViewController"; ObjectID = "sXL-V4-gCH"; */
+"sXL-V4-gCH.title" = "SearchRestaurantViewController";
+
+/* Class = "UILabel"; text = "Gaurav Saini"; ObjectID = "svj-LB-f4R"; */
+"svj-LB-f4R.text" = "Gaurav Saini";
+
+/* Class = "UILabel"; text = "My Cart"; ObjectID = "tj8-gj-wqq"; */
+"tj8-gj-wqq.text" = "My Cart";
+
+/* Class = "UILabel"; text = "Recommended Menu"; ObjectID = "tmV-au-ado"; */
+"tmV-au-ado.text" = "Recommended Menu";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "uFb-go-cNB"; */
+"uFb-go-cNB.normalTitle" = "OK";
+
+/* Class = "UIButton"; normalTitle = "PROCEED"; ObjectID = "ukA-QI-fgH"; */
+"ukA-QI-fgH.normalTitle" = "PROCEED";
+
+/* Class = "UIButton"; normalTitle = "VIEW ONLINE MENU"; ObjectID = "um2-sI-Ykq"; */
+"um2-sI-Ykq.normalTitle" = "VIEW ONLINE MENU";
+
+/* Class = "UILabel"; text = "Delivery Time"; ObjectID = "vCs-Vr-bJP"; */
+"vCs-Vr-bJP.text" = "Delivery Time";
+
+/* Class = "UILabel"; text = "582-569-6642"; ObjectID = "vEZ-zP-d0U"; */
+"vEZ-zP-d0U.text" = "582-569-6642";
+
+/* Class = "UILabel"; text = "Tap to copy"; ObjectID = "xAI-hk-YGE"; */
+"xAI-hk-YGE.text" = "Tap to copy";
+
+/* Class = "UILabel"; text = "+1 9888611221"; ObjectID = "xRR-Cj-TJD"; */
+"xRR-Cj-TJD.text" = "+1 9888611221";
+
+/* Class = "UITextField"; placeholder = "FirstName"; ObjectID = "xoy-LV-mjE"; */
+"xoy-LV-mjE.placeholder" = "FirstName";
+
+/* Class = "UITextField"; placeholder = "Enter Promocode"; ObjectID = "xsi-BH-4k3"; */
+"xsi-BH-4k3.placeholder" = "Enter Promocode";
+
+/* Class = "UILabel"; text = "No Restaurant Found"; ObjectID = "zUy-b3-QMe"; */
+"zUy-b3-QMe.text" = "No Restaurant Found";

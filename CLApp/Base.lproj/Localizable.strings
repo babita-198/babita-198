@@ -1,0 +1,455 @@
+/*
+ Localizable.strings
+ CLApp
+ 
+ Created by cl-macmini-68 on 07/12/16.
+ Copyright © 2016 Hardeep Singh. All rights reserved.
+ */
+
+//-----Tutorial
+"Tutorial1" = "Herbs are fun and easy to grow. When harvested they make even the simplest meal seem like a gourmet delight.";
+"Tutorial2" = "Herbs are fun and easy to grow. When harvested they make even the simplest meal seem like a gourmet delight.";
+"Tutorial3" = "Herbs are fun and easy to grow. When harvested they make even the simplest meal seem like a gourmet delight.";
+"Tutorial4" = "Herbs are fun and easy to grow. When harvested they make even the simplest meal seem like a gourmet delight.";
+"GET STARTED" = "GET STARTED";
+"Please write feedback" = "Please write feedback";
+"Sign up" = "Sign up";
+"CurrentLanguage" = "******* ENGLISH  *********";
+"Login" = "Login";
+"Check Validations" = "Check Validations";
+"Unknown" = "Unknown";
+"Forgot_Password" = "Forgot Password";
+"AlertNoCamera" = "Device has no camera";
+"Pick UP" = "Pick UP";
+"Km" = "Km";
+"No Addresses found" = "No Addresses found";
+"Search restaurants" = "Search restaurants";
+"No Restaurant Found" = "No Restaurant Found";
+"SELECT" = "SELECT";
+"Rs." = "Rs.";
+"ADD NEW ADDRESS" = "ADD NEW ADDRESS";
+//-----SideMenu
+"Home" = "Home";
+"Help" = "Help";
+"Logout" = "Logout";
+"Cancel" = "Cancel";
+"MyProfile" = "My Profile";
+"MyAddress" = "My Address";
+"MyOrders" = "My Orders";
+"Referafriend" = "Refer a friend";
+"Promotions" = "Promotions";
+"ChatSupport" = "Chat Support";
+"Info" = "Info";
+
+
+//----SignIN
+"Don’t have an account?" = "Don’t have an account?";
+"CREATE ACCOUNT" = "CREATE ACCOUNT";
+"Forgot Password?" = "Forgot Password?";
+"Sign in " = "Sign in ";
+"Email ID/ Phone Number" = "Email ID/ Phone Number";
+
+//-----OTP Verification
+"ErrorPhoneCode"       = "Please Enter OTP";
+"ErrorCorrectCode"     = "Please enter 4 digit OTP";
+
+//---- Home
+"Sponsored" = "Sponsored";
+"Discover" = "Discover";
+"Restaurants near you" = "Restaurants near you";
+"Explore new restaurants" = "Explore new restaurants";
+"Trending" = "Trending";
+//---- Signup form
+"Please enter valid phone number" = "Please enter valid phone number";
+"Email" = "Email";
+"First name" = "First name";
+"Last name" = "Last name";
+"Username" = "Username";
+"passwordPlaceholder" = "Password (6 Digit Password)";
+"confirmPasswordPlaceholder" = "Confirm Password (6 Digit Password)";
+"Confirm Email" = "Confirm Email";
+"ConfirmPassword" = "Confirm password";
+"ErrorFirstName"       = "Please enter first name";
+"ErrorLastName"        = "Please enter last name";
+"ErrorUserName"        = "Please enter user name";
+"ErrorCode"            = "Please enter country code";
+"ErrorPhoneNumber"     = "Please enter phone number";
+"ErrorConfirmPassword" = "Please enter confirm password";
+"ErrorOldPassword"     = "Please enter old password";
+"ErrorValidPassword"   = "Please enter valid password";
+"ErrorValidNewPassword"= "Password should be of atleast 6 characters";
+"ErrorPassword"        = "Please enter new password";
+"ErrorPasswordLength"  = "Password should be of atleast 8 characters";
+"ErrorKitchName"       = "Please enter name";
+"ErrorNewPassword"     = "Please enter new password";
+"ErrorRestaurantName"  = "Please enter restaurant name";
+"ErrorExperience"      = "Please enter experience";
+"ErrorAddress"         = "Please enter address";
+"ErrorNickName"        = "Please enter nick name";
+"TOSTitle"             = "By Signing up you agree to our Terms of Service & that you have read our Privacy Policy";
+
+"Password" = "Password";
+"Phone Number" = "Email Id/ Phone Number";
+"Phone Number" = "Phone Number";
+"All Fields ARE Filled" = "All Fields ARE Filled = %@";
+"All Fields Are Validate" = "All Fields Are Validate = %@";
+
+//----
+"A special character is mandatory" = "A special character is mandatory";
+"A special symbol is mandatory" = "A special symbol is mandatory";
+
+//---- Messages
+"Change Your Authorization Status" = "Change Your Authorization Status";
+"Location_Authorization_Denied_Message" = "Current Authorization status is Denied, Change the authorization status in Settings. To enable, please go to Settings->Privacy->Location Services";
+"notFoundAddress" = "Restaurant does not deliver at your selected location. Please change delivery address or choose another restaurant";
+//---- Payment
+"Settings" = "Settings";
+"Payment" = "Payment";
+"Wallet" = "Wallet";
+"Notifications" = "Notifications";
+"Select Language" = "Select Language";
+"Confirm password does not match with new password" = "Confirm password does not match with new password";
+"sideHome" = "Home";
+//------Address Flow
+"Pincode" = "Pincode";
+"Save delivery location" = "Save delivery location";
+"Save as" = "Save as";
+"Address added successfully" = "Address added successfully";
+"Address updated successfully" = "Address updated successfully";
+"UPDATE & PROCEED" = "UPDATE & PROCEED";
+"SAVE & PROCEED" = "SAVE & PROCEED";
+"Profile updated successfully" = "Profile updated successfully";
+
+//------Cart View Controller
+"Please add item to cart" = "Please add item to cart";
+"Ok" = "Ok";
+"OPTIONS" = "OPTIONS";
+"Cancel" = "Cancel";
+
+//------Tutorials
+"Tutorial1" = "Tutorial1";
+"Tutorial2" = "Tutorial2";
+"Tutorial3" = "Tutorial3";
+"Tutorial4" = "Tutorial4";
+"Tutorial5" = "Tutorial5";
+
+//----Home ViewController
+"Sponsored" = "Sponsored";
+"Discover" = "Discover";
+"RESTAURANTS NEAR YOU" = "RESTAURANTS NEAR YOU";
+"Unable to Find Address for Location" = "Unable to Find Address for Location";
+"No Matching Addresses Found" = "No Matching Addresses Found";
+"You had added items of different restaurant in cart. Are you sure you want to clear Cart ?" = "You had added items of different restaurant in cart. Are you sure you want to clear Cart ?";
+"Complete Payment" = "Complete Payment";
+"Order Placed" = "Order Placed";
+//-----ORDER
+"Cancel Order" = "Cancel Order";
+"Are you sure you want to" = "Are you sure you want to";
+"cancel your order " = "cancel your order ";
+"YES" = "YES";
+"NO" = "NO";
+"Cancellation Reason" = "Cancellation Reason";
+"Unable to contact to restraunt" = "Unable to contact to restraunt";
+"Not available for taking order" = "Not available for taking order";
+"My reason is not listed" = "My reason is not listed";
+"Dummy content" = "Dummy content";
+"DON'T CANCEL" = "DON'T CANCEL";
+"CANCEL ORDER" = "CANCEL ORDER";
+"SWIPE TO CONFIRM >>" = "SWIPE TO CONFIRM >>";
+"Complete Payment" = "Complete Payment";
+"Price" = "Price";
+"Qty" = "Qty";
+"Total Price" = "Total Price";
+"No Discount Applied" = "No Discount Applied";
+"Delivery Charges" = "Delivery Charges";
+"VAT" = "VAT";
+"You don't have any saved address yet.\n Please add address to create booking" = "You don't have any saved address yet.\n Please add address to create booking";
+"Something went wrong, Please try again" = "Something went wrong, Please try again";
+"Please Select Address" = "Please Select Address";
+"Take Away" = "Take Away";
+"Home Delivery" = "Home Delivery";
+"Not able to make phone call " = "Not able to make phone call ";
+"You don't have any past booking yet.\nYou can create booking." = "You don't have any past booking yet.\nYou can create booking.";
+"You don't have any upcoming booking yet.\nYou can create booking." = "You don't have any upcoming booking yet.\nYou can create booking.";
+"Congratulations" =  "Congratulations";
+"Your order is placed successfully" = "Your order is placed successfully";
+"Your order number is" = "Your order number is";
+"Rate" = "Rate";
+"Item" = "Item";
+"Address" = "Address";
+"Amount" = "Amount";
+"Hide" = "Hide";
+"Show" = "Show";
+"VIEW ONLINE MENU" = "VIEW ONLINE MENU";
+"confirmPasswordPlaceholder" = "confirmPasswordPlaceholder";
+"passwordPlaceholder" = "passwordPlaceholder";
+"AlertNoCamera" = "AlertNoCamera";
+"App Wallet" = "App Wallet";
+"Credit Card" = "Credit Card";
+"Cash on Delivery" = "Cash on Delivery";
+"Mada" = "Mada";
+"payment options" = "payment options";
+"Price Details" = "Price Details";
+"PRICE DETAILS" = "PRICE DETAILS";
+"No review found" = "No review found";
+"Landmark (Optional)" = "Landmark (Optional)";
+"Home" = "Home";
+"Work" = "Work";
+"Other" = "Other";
+"Delivery Cost" = "Delivery Cost";
+"Min order" = "Min order";
+"Closed" = "Closed";
+"Write Feedback…" = "Write Feedback…";
+"Delivers in" = "Delivers in";
+"No customization added." = "No customization added.";
+"Please rate for booking service" = "Please rate for booking service";
+"Order Delivered" = "Order Delivered";
+"Loading..." = "Loading...";
+//MARK: New String
+"Cash" = "Cash";
+"Wallet" = "Wallet";
+"Card" = "Card";
+"Mada" = "Mada";
+"GET DIRECTIONS" = "GET DIRECTIONS";
+"Delivery Time" = "Delivery Time";
+"VIEW CART" = "VIEW CART";
+"PROCEED" = "PROCEED";
+"My Cart" = "My Cart";
+"Delivers in" = "Delivers in";
+"min" = "min";
+"Mins" = "Mins";
+"items" = "items";
+"Delivery Mode" = "Delivery Mode";
+"Payment Mode" = "Payment Mode";
+"Total Amount" = "Total Amount";
+"VAT" = "VAT";
+"Coupon Discount" = "Coupon Discount";
+"Delivery Mode" = "Delivery Mode";
+"APPLY" = "APPLY";
+"Allergic to something? Mention it here…" = "Allergic to something? Mention it here…";
+"PAYMENT OPTIONS" = "PAYMENT OPTIONS";
+"PRICE DETAILS" = "PRICE DETAILS";
+"Price" = "Price";
+"Qty" = "Qty";
+"PAY" = "PAY";
+"Your order number is" = "Your order number is";
+"TRACK ORDER" = "TRACK ORDER";
+"ITEM IN CART" = "ITEM IN CART";
+"ADD MORE ITEMS" = "ADD MORE ITEMS";
+"ADD MORE ADDRESS" = "ADD MORE ADDRESS";
+"Continue" = "Continue";
+"Reviews" = "Reviews";
+"Select Outlet" = "Select Outlet";
+"Customize" = "Customize";
+"Do you really want to logout?" = "Do you really want to logout?";
+"AlertNoCamera" = "AlertNoCamera";
+"Refer your friends to FoodFox. For each friend that joins, you will both receive a $10 credit." = "Refer your friends to FoodFox. For each friend that joins, you will both receive a $10 credit.";
+"Delivered on" = "Delivered on";
+"By" = "By";
+"Delivered" = "Delivered";
+"Delivered & Rated" = "Delivered & Rated";
+"DRIVER REJECTED" = "DRIVER REJECTED";
+"CANCELLED" = "CANCELLED";
+"Tap to copy" = "Tap to copy";
+"Copied" = "Copied";
+"SHARE NOW" = "SHARE NOW";
+"Refer A Friend" = "Refer A Friend";
+"Info" = "Info";
+"EDIT PROFILE" = "EDIT PROFILE";
+"LOGOUT" = "LOGOUT";
+"CHANGE PASSWORD" = "CHANGE PASSWORD";
+"Discount" = "Discount";
+"SAVE" = "SAVE";
+"Click here and select Address" = "Click here and select Address";
+"FirstName" = "FirstName";
+"LastName" = "LastName";
+"Email" = "Email";
+"My Profile" = "My Profile";
+"Search restaurants" = "Search restaurants";
+"Address" = "Address";
+"Enter Promocode" = "Enter Promocode";
+" APPLY " = " APPLY ";
+"My Orders" = "My Orders";
+"My Address" = "My Address";
+"Delivery Location" = "Delivery Location";
+"SUBMIT" = "SUBMIT";
+"Enter Card Information" = "Enter Card Information";
+"Add New Card" = "Add New Card";
+"Card Holder Name" = "Card Holder Name";
+"CVV/CVC" = "CVV/CVC";
+"Exp. Date" = "Exp. Date";
+"Set as default" = "Set as default";
+"Wallet" = "Wallet";
+"FoodFox Cash" = "FoodFox Cash";
+"Add Credits to Wallet" = "Add Credits to Wallet";
+"Enter amount" = "Enter amount";
+
+"Already have an account?" = "Already have an account?";
+"or" = "or";
+"Or" = "Or";
+"SIGN IN" = "SIGN IN";
+"Sign in" = "Sign in";
+"Sign up" = "Sign up";
+"Twitter" = "Twitter";
+"Google" = "Google";
+"Facebook" = "Facebook";
+"By Signing up you agree to our Terms of Service & that you have read our Privacy Policy" = "By Signing up you agree to our Terms of Service & that you have read our Privacy Policy";
+"SIGN UP" = "SIGN UP";
+"Getting Current Location..." = "Getting Current Location...";
+"Please check your internet connection." = "Please check your internet connection.";
+"Confirm Password" = "Confirm Password";
+"Don’t have an account?" = "Don’t have an account?";
+"Password" = "Password";
+"Forgot Password?" = "Forgot Password?";
+"RESEND OTP" = "RESEND OTP";
+"Enter the verification code" = "Enter the verification code";
+"sent to" = "sent to";
+"via sms." = "via sms.";
+"OTP Verification" = "OTP Verification";
+"SUBMIT" = "SUBMIT";
+"Old Password(6 Digit password)" = "Old Password(6 Digit password)";
+"New Password(6 Digit password)" = "New Password(6 Digit password)";
+"Confirm New Password(6 Digit password)" = "Confirm New Password(6 Digit password)";
+"Change Password" = "Change Password";
+"SAVE PASSWORD" = "SAVE PASSWORD";
+"Updating Booking Status..." = "Updating Booking Status...";
+"Fetching Booking Data ..." = "Fetching Booking Data ...";
+"No offers available" = "No offers available";
+"Please enter Promo code" = "Please enter Promo code";
+"Please login to continue" = "Please login to continue";
+"Your query successfully submitted" = "Your query successfully submitted";
+//New String
+"Your order will be delivered shortly. Sorry, for the delay." = "Your order will be delivered shortly. Sorry, for the delay.";
+"Referral Code (Optional)" = "Referral Code (Optional)";
+"All field is mendatory" = "All field is mendatory";
+"Email is required" = "Email is required";
+"Email is not valid" = "Email is not valid";
+"Email/Phone is required" = "Email/Phone is required";
+"Phone number is not valid" = "Phone number is not valid";
+"First name is required" = "First name is required";
+"Invalid first name" = "Invalid first name";
+"Last name is required" = "Last name is required";
+"Invalid last name" = "Invalid last name";
+"Password must be six characters" = "Password must be six characters";
+"SignIn/SignUp" = "SignIn | SignUp";
+"Distance" = "Distance";
+"Select Language" = "Select Language";
+"SELECT" = "SELECT";
+"Preparation Time" = "Preparation Time";
+"Please enter your registered Phone number to reset your password." = "Please enter your registered Phone number to reset your password.";
+"RESET PASSWORD" = "RESET PASSWORD";
+"NEED HELP?" = "NEED HELP?";
+"TRACK NOW" = "TRACK NOW";
+"Order Confirmed" = "Order Confirmed";
+"Order Processed" = "Order Processed";
+"Ready for Pickup" = "Ready for Pickup";
+"Ready for Delivery" = "Ready for Delivery";
+"We have received your order" = "We have received your order";
+"Your order has been confirmed" = "Your order has been confirmed";
+"We are preparing your order" = "We are preparing your order";
+"Please Approach the Counter" = "Please Approach the Counter";
+"Your order is ready for delivery" = "Your order is ready for delivery";
+"NEED HELP?" = "NEED HELP?";
+"Track Order" = "Track Order";
+"CLOSE" = "CLOSE";
+"Count Down" = "Count Down";
+"Order Number" = "Order Number";
+"HELP" = "HELP";
+"CANCEL ORDER" = "CANCEL ORDER";
+"Upcoming" = "Upcoming";
+"No Orders Found!" = "No Orders Found!";
+"Past" = "Past";
+"VIEW DETAILS" = "VIEW DETAILS";
+"CANCEL ORDER" = "CANCEL ORDER";
+"Promotions" = "Promotions";
+"View Timing" = "View Timing";
+"All Reviews" = "All Reviews";
+"The Internet connection appears to be offline." = "The Internet connection appears to be offline.";
+"Session Expired." = "Session Expired.";
+"Offers" = "Offers";
+
+"Terms & Conditions" = "Terms & Conditions";
+"Terms of Service" = "Terms of Service";
+"Privacy Policy" = "Privacy Policy";
+"Create an Account?" = "Create an Account?";
+"Forgot my Password?" = "Forgot my Password?";
+"FAQ’s" = "FAQ’s";
+"LOGIN" = "LOGIN";
+"Login" = "Login";
+"Contact Us" = "Contact Us";
+"About Us" = "About Us";
+"LOGIN/SIGNUP" = "LOGIN/SIGNUP";
+"VERIFY OTP" = "VERIFY OTP";
+"Location" = "Location";
+"Please Select Subject" = "Please Select Subject";
+"Write Query..." = "Write Query...";
+"Please Enter feedback" = "Please Enter feedback";
+"Enter Name" = "Enter Name";
+"Enter Email" = "Enter Email";
+"Select Subject" = "Select Subject";
+"ADD CREDIT" = "ADD CREDIT";
+"Info" = "Info";
+"For each friend that joins and places its first order, you and your friend will receive" = "For each friend that joins and places its first order, you and your friend will receive";
+"respectively" = "respectively";
+"Tap to copy" = "Tap to copy";
+"Copied" = "Copied";
+"Check out FoodFox, Your friend has shared a referral link" = "Check out FoodFox, Your friend has shared a referral link";
+"Refer your friends to FoodFox." = "Refer your friends to FoodFox.";
+"ADDRESS DETAILS" = "ADDRESS DETAILS";
+"You don't have sufficient funds in your wallet." = "You don't have sufficient funds in your wallet.";
+"View Timing >" = "View Timing >";
+"Minimum order amount must be" = "Minimum order amount must be";
+"Open Now" = "Open Now";
+"Closed Now" = "Closed Now";
+"Busy Now" = "Busy Now";
+
+
+//Enahancment Added
+
+//Home
+"Advertising"="Advertising";
+"Hide"="Hide";
+//Restaurant Details
+"Select this Branch"="Select this Branch";
+"GET THE DIRECTIONS"="GET THE DIRECTIONS";
+"SELECT OUTLET"="SELECT OUTLET";
+"VIEW REVIEWS"="VIEW REVIEWS";
+"Cancel"="Cancel";
+"Description"="Description";
+
+//SideMenu
+"Setting"="Setting";
+"Switch to Night Mode"="Switch to Night Mode";
+"Points:"="Points:";
+"You Have Got The Heighest Level"="You Have Got The Heighest Level";
+"  PLATINUM MEMBER  "="  PLATINUM MEMBER  ";
+"  SILVER MEMBER  "="  SILVER MEMBER  ";
+"  GOLD MEMBER  "="  GOLD MEMBER  ";
+"Gold Level"="Gold Level";
+"Silver Level"="Silver Level";
+"Platinum Level"="Platinum Level";
+
+//Addresses
+"My Addresses"="My Addresses";
+//Profile
+"Change Password"="Change Password";
+"REWARDS"="REWARDS";
+"Points"="Points";
+"E-mail"="E-mail";
+"Phone No"="Phone No";
+"Edit"="Edit";
+
+
+//Choose Delivery
+"HOME DELIVERY"="HOME DELIVERY";
+"PICKUP ORDER"="PICKUP ORDER";
+"Welcome to FoodFox"="Welcome to FoodFox";
+"Start your Order Now"="Start your Order Now";
+
+//Online contaner
+"Customizations available"="Customizations available";
+"STATUS TRACKING"="STATUS TRACKING";
+
+//Add ons
+"CUSTOMIZE"="CUSTOMIZE";
+"CANCEL"="CANCEL";

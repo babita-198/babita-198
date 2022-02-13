@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectLanguageController" customModule="FoodFox" customModuleProvider="target">
+            <connections>
+                <outlet property="arabicBtn" destination="Dq4-o6-eLy" id="Em9-u0-xkq"/>
+                <outlet property="arabicImage" destination="jVD-jz-PI8" id="Ucv-uP-cFN"/>
+                <outlet property="englishBtn" destination="wxX-5p-AEh" id="DFe-gO-RHm"/>
+                <outlet property="englishImage" destination="N1g-Ms-lJk" id="8fd-sr-y3x"/>
+                <outlet property="languageTitle" destination="XVH-dj-Zks" id="yjn-cK-E5O"/>
+                <outlet property="languageView" destination="VyZ-RH-nFX" id="Ewa-4J-pL1"/>
+                <outlet property="selectedBtn" destination="apE-cO-iI1" id="EU0-pg-t0w"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="SelectLanguageController" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VyZ-RH-nFX">
+                    <rect key="frame" x="40" y="233.5" width="295" height="200"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Language" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XVH-dj-Zks">
+                            <rect key="frame" x="15" y="15" width="265" height="28"/>
+                            <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
+                            <color key="textColor" red="0.2470588235" green="0.2470588235" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="o0T-yl-snW">
+                            <rect key="frame" x="0.0" y="150" width="295" height="50"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apE-cO-iI1">
+                                    <rect key="frame" x="0.0" y="0.0" width="295" height="50"/>
+                                    <color key="backgroundColor" red="0.77647058823529413" green="0.0" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="15"/>
+                                    <state key="normal" title="SELECT">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="selectLanguageAction:" destination="-1" eventType="touchUpInside" id="ipd-En-bJz"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="jT3-fF-uC9"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="x0B-qV-U1p">
+                            <rect key="frame" x="50" y="71" width="195" height="40"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="jFA-gF-pij">
+                                    <rect key="frame" x="0.0" y="0.0" width="85" height="40"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="radioOff" translatesAutoresizingMaskIntoConstraints="NO" id="N1g-Ms-lJk">
+                                            <rect key="frame" x="0.0" y="0.0" width="15" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="15" id="ZHN-3K-EVy"/>
+                                            </constraints>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxX-5p-AEh">
+                                            <rect key="frame" x="30" y="0.0" width="55" height="40"/>
+                                            <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="15"/>
+                                            <state key="normal" title="English">
+                                                <color key="titleColor" red="0.2470588235" green="0.2470588235" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="englishLanguage:" destination="-1" eventType="touchUpInside" id="Ive-qk-nML"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="5pC-E7-uzU"/>
+                                    </constraints>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="wNa-T1-U4X">
+                                    <rect key="frame" x="110" y="0.0" width="85" height="40"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="radioOn" translatesAutoresizingMaskIntoConstraints="NO" id="jVD-jz-PI8">
+                                            <rect key="frame" x="0.0" y="0.0" width="15" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="15" id="BCn-XG-8a7"/>
+                                            </constraints>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dq4-o6-eLy">
+                                            <rect key="frame" x="30" y="0.0" width="55" height="40"/>
+                                            <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="15"/>
+                                            <state key="normal" title="العربية">
+                                                <color key="titleColor" red="0.2470588235" green="0.2470588235" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="arabicLanguage:" destination="-1" eventType="touchUpInside" id="TV6-e5-BfG"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="YDf-6i-uAH"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="ntE-dH-jCy"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="XVH-dj-Zks" firstAttribute="top" secondItem="VyZ-RH-nFX" secondAttribute="top" constant="15" id="4hE-1b-ayb"/>
+                        <constraint firstAttribute="trailing" secondItem="XVH-dj-Zks" secondAttribute="trailing" constant="15" id="BHe-v5-UwL"/>
+                        <constraint firstAttribute="height" constant="200" id="Eqg-GQ-8zI"/>
+                        <constraint firstItem="x0B-qV-U1p" firstAttribute="top" secondItem="XVH-dj-Zks" secondAttribute="bottom" constant="28" id="NKn-Az-lnw"/>
+                        <constraint firstAttribute="bottom" secondItem="o0T-yl-snW" secondAttribute="bottom" id="RMf-Ch-1MQ"/>
+                        <constraint firstItem="XVH-dj-Zks" firstAttribute="leading" secondItem="VyZ-RH-nFX" secondAttribute="leading" constant="15" id="c32-x2-SfQ"/>
+                        <constraint firstItem="x0B-qV-U1p" firstAttribute="centerX" secondItem="XVH-dj-Zks" secondAttribute="centerX" id="niK-Aq-Qi8"/>
+                        <constraint firstItem="o0T-yl-snW" firstAttribute="leading" secondItem="VyZ-RH-nFX" secondAttribute="leading" id="raU-cF-4oX"/>
+                        <constraint firstAttribute="trailing" secondItem="o0T-yl-snW" secondAttribute="trailing" id="wav-5G-EQb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="VyZ-RH-nFX" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7ZG-l1-sLU"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="VyZ-RH-nFX" secondAttribute="trailing" constant="40" id="EIw-tC-cGO"/>
+                <constraint firstItem="VyZ-RH-nFX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="TET-LQ-lD2"/>
+                <constraint firstItem="VyZ-RH-nFX" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="yPv-wo-nRs"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="138" y="155"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="radioOff" width="16" height="16"/>
+        <image name="radioOn" width="16" height="16"/>
+    </resources>
+</document>

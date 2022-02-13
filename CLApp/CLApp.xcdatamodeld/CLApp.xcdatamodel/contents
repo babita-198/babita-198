@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CartItem" representedClassName="CartItem" syncable="YES">
+        <attribute name="branchId" optional="YES" attributeType="String"/>
+        <attribute name="branchName" optional="YES" attributeType="String"/>
+        <attribute name="cartItemId" optional="YES" attributeType="String"/>
+        <attribute name="estimateTime" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="itemName" optional="YES" attributeType="String"/>
+        <attribute name="itemPrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="itemQuantity" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="resturentDesc" optional="YES" attributeType="String"/>
+        <attribute name="resturentId" optional="YES" attributeType="String"/>
+        <relationship name="cartItemAddOns" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CartItemAddOn" inverseName="cart" inverseEntity="CartItemAddOn"/>
+    </entity>
+    <entity name="CartItemAddOn" representedClassName="CartItemAddOn" syncable="YES">
+        <attribute name="adonId" optional="YES" attributeType="String"/>
+        <attribute name="adonName" optional="YES" attributeType="String"/>
+        <attribute name="adonsPrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="cart" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CartItem" inverseName="cartItemAddOns" inverseEntity="CartItem"/>
+    </entity>
+    <elements>
+        <element name="CartItem" positionX="-63" positionY="-18" width="128" height="208"/>
+        <element name="CartItemAddOn" positionX="-54" positionY="27" width="128" height="105"/>
+    </elements>
+</model>

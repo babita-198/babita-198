@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>386261241269-2sf4q9ec3gqcngqh0j1a4ml3mdacrsnq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.386261241269-2sf4q9ec3gqcngqh0j1a4ml3mdacrsnq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAHQmvN5WTG7LL6H1pqBaq0Cd4Y4DyQKLA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>386261241269</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.foodfox.customerapp</string>
+	<key>PROJECT_ID</key>
+	<string>foodfox-273208</string>
+	<key>STORAGE_BUCKET</key>
+	<string>foodfox-273208.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:386261241269:ios:67d64c6f3755de9d681dfc</string>
+	<key>DATABASE_URL</key>
+	<string>https://foodfox-273208.firebaseio.com</string>
+</dict>
+</plist>

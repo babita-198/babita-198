@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OrderCancelReasonPopUp" customModule="FoodFox" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelButton" destination="Chc-Ll-jV2" id="LF7-Hv-PyN"/>
+                <outlet property="cancelView" destination="Ga6-ys-Wvt" id="aY2-m0-Y1s"/>
+                <outlet property="dontCancelButton" destination="XSD-H4-gra" id="KGT-CL-jOW"/>
+                <outlet property="tableView" destination="zDh-Hj-HFk" id="OnM-hg-71Z"/>
+                <outlet property="titleLabel" destination="npV-LY-hlS" id="AzO-MH-tM7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="OrderCancelReasonPopUp" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ga6-ys-Wvt">
+                    <rect key="frame" x="15" y="208.5" width="345" height="250"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cancellation Reason" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npV-LY-hlS">
+                            <rect key="frame" x="15" y="15" width="315" height="28"/>
+                            <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
+                            <color key="textColor" red="0.2470588235" green="0.2470588235" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zDh-Hj-HFk">
+                            <rect key="frame" x="0.0" y="53" width="345" height="147"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </tableView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gHe-xR-6z6">
+                            <rect key="frame" x="0.0" y="200" width="345" height="50"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XSD-H4-gra">
+                                    <rect key="frame" x="0.0" y="0.0" width="172.5" height="50"/>
+                                    <color key="backgroundColor" red="0.46274509800000002" green="0.54117647059999996" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="15"/>
+                                    <state key="normal" title="DON'T CANCEL">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="dontCancelOrder:" destination="-1" eventType="touchUpInside" id="xVI-qZ-9r0"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Chc-Ll-jV2">
+                                    <rect key="frame" x="172.5" y="0.0" width="172.5" height="50"/>
+                                    <color key="backgroundColor" red="0.98039215686274506" green="0.5490196078431373" blue="0.019607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="15"/>
+                                    <state key="normal" title="CANCEL ORDER">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="cancelOrderAction:" destination="-1" eventType="touchUpInside" id="KeK-Fv-j2Z"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="YmK-nF-3Vl"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="gHe-xR-6z6" secondAttribute="bottom" id="709-0e-OLH"/>
+                        <constraint firstAttribute="height" constant="250" id="8kw-zk-tHS"/>
+                        <constraint firstItem="npV-LY-hlS" firstAttribute="top" secondItem="Ga6-ys-Wvt" secondAttribute="top" constant="15" id="CYj-NH-s05"/>
+                        <constraint firstItem="gHe-xR-6z6" firstAttribute="leading" secondItem="Ga6-ys-Wvt" secondAttribute="leading" id="MfC-3c-hRb"/>
+                        <constraint firstAttribute="trailing" secondItem="zDh-Hj-HFk" secondAttribute="trailing" id="Pyn-j3-8tn"/>
+                        <constraint firstItem="npV-LY-hlS" firstAttribute="leading" secondItem="Ga6-ys-Wvt" secondAttribute="leading" constant="15" id="QlD-yJ-DEj"/>
+                        <constraint firstItem="zDh-Hj-HFk" firstAttribute="leading" secondItem="Ga6-ys-Wvt" secondAttribute="leading" id="TS3-PE-USm"/>
+                        <constraint firstAttribute="trailing" secondItem="gHe-xR-6z6" secondAttribute="trailing" id="aan-Ng-iXu"/>
+                        <constraint firstItem="gHe-xR-6z6" firstAttribute="top" secondItem="zDh-Hj-HFk" secondAttribute="bottom" id="loz-bZ-TfP"/>
+                        <constraint firstItem="zDh-Hj-HFk" firstAttribute="top" secondItem="npV-LY-hlS" secondAttribute="bottom" constant="10" id="olS-7d-wDX"/>
+                        <constraint firstAttribute="trailing" secondItem="npV-LY-hlS" secondAttribute="trailing" constant="15" id="zkv-9F-EqG"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.61494006849315064" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Ga6-ys-Wvt" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6qu-Yv-iRO"/>
+                <constraint firstItem="Ga6-ys-Wvt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="fa4-CJ-KLu"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ga6-ys-Wvt" secondAttribute="trailing" constant="15" id="rJr-4c-ev0"/>
+                <constraint firstItem="Ga6-ys-Wvt" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="tes-TR-jwG"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="51.5"/>
+        </view>
+    </objects>
+</document>
